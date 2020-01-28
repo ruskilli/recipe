@@ -1,3 +1,4 @@
 <?php
 
-$GLOBALS["debug"] = true;
+$GLOBALS["debug"]     = true;
+$GLOBALS["api_token"] = "my secrat tokkan!";
