@@ -1,16 +1,24 @@
 {
 "count":{
     "recipes":    1,
-    "header":     1,
-    "ingredients":3,
-    "misc":       2,
-    "method":     1
+    "header":     [1,1],
+    "ingredients":[2,3],
+    "misc":       [1,2],
+    "method":     [1,1]
   },
 "style":{
-    "header":     {"pre":"<h1>","post":"</h1>",  "each":" "},
-    "ingredients":{"pre":" - ", "post":"<br />", "each":" "},
-    "misc":       {"pre":" - ", "post":"<br />", "each":" "},
-    "method":     {"pre":"<p>", "post":"</p>",   "each":"<br />"}
+    "html":{
+      "header":     {"pre":"<h1>","post":"</h1>",  "each":" "},
+      "ingredients":{"pre":" - ", "post":"<br />", "each":" "},
+      "misc":       {"pre":" - ", "post":"<br />", "each":" "},
+      "method":     {"pre":"<p>", "post":"</p>",   "each":"<br />"}
+    },
+    "markdown":{
+      "header":     {"pre":"# ","post":"# ",  "each":" "},
+      "ingredients":{"pre":"* ", "post":"  \n", "each":" "},
+      "misc":       {"pre":"* ", "post":"  \n", "each":" "},
+      "method":     {"pre":"  \n", "post":"",   "each":" "}
+    }
   },
 "header":{
     "first": ["FORLOREN","BELGISK","GOD, GAMMELDAGS","MORMORS","ENKEL","ANITAS",
