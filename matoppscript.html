@@ -1,0 +1,630 @@
+<!-- http://www.balsamia.com/random/mat.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+
+<title>matoppscript</title>
+
+<!-- DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"--><script language="JavaScript"><!-- 
+
+var nmax = 18 
+var hmax = 15 
+var tmax = 14
+var gmax = 5 
+var imax = 33 
+var jmax = 23
+var kmax = 11
+var pmax = 10
+var qmax = 12
+var amax = 12
+var bmax = 10
+var cmax = 13
+
+
+var n = new Array(nmax) 
+var h = new Array(hmax)
+var t = new Array(tmax)
+var g = new Array(gmax)
+var i = new Array(imax)
+var j = new Array(jmax)
+var k = new Array(kmax)
+var p = new Array(pmax)
+var q = new Array(qmax)
+var a = new Array(amax)
+var b = new Array(bmax)
+var c = new Array(cmax)
+
+
+n[1]="FORLOREN"
+n[2]="BELGISK"
+n[3]="GOD, GAMMELDAGS"
+n[4]="MORMORS"
+n[5]="ENKEL"
+n[6]="ANITAS"
+n[7]="NORDNORSK"
+n[8]="LETTVINT"
+n[9]="TILSLØRT"
+n[10]="LETTSTEKT"
+n[11]="LETTSPIST"
+n[12]="MAGER"
+n[13]=""
+n[14]="FRU FRYDENLUNDS"
+n[15]="AVKOKT"
+n[16]="HELSTEKT"
+n[17]="GRATINERT"
+n[18]="JEVNET"
+
+
+h[1]="JULE"
+h[2]=""
+h[3]=""
+h[4]="MEL"
+h[5]="MANDEL"
+h[6]="PEANØTT"
+h[7]="LØRDAGS"
+h[8]="LUKSUS"
+h[9]="JUKSE"
+h[10]="HØYTIDS"
+h[11]="MEDISTER"
+h[12]="GOURMET"
+h[13]="HVERDAGS"
+h[14]="MORMONER"
+h[15]="FATTIGMANNS"
+
+t[1]="PUDDING"
+t[2]="FROMAGE"
+t[3]="PAI"
+t[4]="SUFFLÈ"
+t[5]="GRYTE"
+t[6]="STUING"
+t[7]="RISOTTO"
+t[8]="GRØT"
+t[9]="BAKKELS"
+t[10]="SNACKS"
+t[11]="BLANDING"
+t[12]="SUPPE"
+t[13]="KOMPOTT"
+t[14]="HØNE"
+
+
+b[1]="1"
+b[2]="1"
+b[3]="1"
+b[4]="1"
+b[5]="2" 
+b[6]="2" 
+b[7]="2-3" 
+b[8]="3" 
+b[9]="4" 
+b[10]="5" 
+
+
+g[1]="ts"
+g[2]="ss"
+g[3]="dl"
+g[4]="kg"
+g[5]="liter" 
+
+
+i[1]="rosiner"
+i[2]="peanøttsmør"
+i[3]="hvetemel"
+i[4]="vann"
+i[5]="salt"
+i[6]="margarin"
+i[7]="tørrgjær"
+i[8]="baconterninger"
+i[9]="melis"
+i[10]="kokosmasse"
+i[11]="kakaopulver"
+i[12]="mandler"
+i[13]="margbein"
+i[14]="byggmel"
+i[15]="rug"
+i[16]="tørkede dadler"
+i[17]="revet ost"
+i[18]="gelatin"
+i[19]="potetmel"
+i[20]="rømme"
+i[21]="cottage cheese"
+i[22]="paprikapulver"
+i[23]="smult"
+i[24]="matfløte"
+i[25]="torskerogn"
+i[26]="sardiner"
+i[27]="smult"
+i[28]="grillkrydder"
+i[29]="olivenolje"
+i[30]="solsikkefrø"
+i[31]="soltørkede tomater"
+i[32]="kålrot"
+i[33]="skinke"
+
+
+a[1]="en klype"
+a[2]="litt"
+a[3]="dypfryst"
+a[4]="rikelig med"
+a[5]="siktet"
+a[6]="revet"
+a[7]="en knivsodd"
+a[8]="vegetabilsk"
+a[9]="2 ss kanadisk"
+a[10]="raspet"
+a[11]="litt lunket"
+a[12]="en kopp"
+
+c[1]="allehånde"
+c[2]="pulverkaffe"
+c[3]="strøkavring"
+c[4]="kokosfett"
+c[5]="einebær"
+c[6]="karve"
+c[7]="buljongpulver"
+c[8]="brunsukker"
+c[9]="kanel"
+c[10]="gurkemeie"
+c[11]="meierismør"
+c[12]="leverpostei"
+c[13]="hvitløk"
+
+j[1]="(skoldet)"
+j[2]="- eller lignende"
+j[3]="- eventuelt hasselnøtter"
+j[4]="(kan sløyfes)"
+j[5]="(lunket i våtbad) " 
+j[6]="(til glassur) "
+j[7]="- evt. fiskekraft"
+j[8]=" " 
+j[9]=" "
+j[10]=" "
+j[11]=" " 
+j[12]=" "
+j[13]=" "
+j[14]=" "
+j[15]=" "
+j[16]=" "
+j[17]=" "
+j[18]=" "
+j[19]=" "
+j[20]=" "
+j[21]=" "
+j[22]=" "
+j[23]=" "
+
+
+k[1]="Bland ingrediensene."
+k[2]="Elt til en jevn masse."
+k[3]="Kna til en jevn deig."
+k[4]="Form massen med fingrende til festlige figurer."
+k[5]="Ha i en bolle - og kjør i mixmaster til skummet avtar." 
+k[6]="Bland det tørre forsiktig i vesken. Elt." 
+k[7]="Hell blandingen i kasserolle. La trekke til massen stivner." 
+k[8]="Smelt smøret/maragarinen. Spe på med ingrediensene." 
+k[9]="Visp sammen ingrediensene. La blandingen heve i 20 minutter." 
+k[10]="Bland sammen og la svelle." 
+k[11]="Rør blandingen lett og smidig." 
+
+
+p[1]="Stekes i ca. 30 minutter på midterste rille (250 grader)."
+p[2]="Gi et lett oppkok. La det småputre under lokk i 10-15 minutter."
+p[3]="Stekes lett på svak varme. "
+p[4]="Luftavkjøles."
+p[5]="La det fosskoke til massen flyter opp." 
+p[6]="Kok opp under omrøring." 
+p[7]="Hell i form - og stek i ovn på 225 grader i 40 minutt." 
+p[8]="Kok opp under omrøring." 
+p[9]="Kok opp i en kasserolle med rikelig vann. La småputre under lokk i 45 minutter." 
+p[10]="Avkjøl, og hvelv."
+
+
+q[1]="Server med mandelpoteter og broccoli."
+q[2]="Anrett med båndspaghetti og persilledusker."
+q[3]="Server umiddelbart."
+q[4]="La retten stå tildekket og kjølig over natten. Server neste dag med varm potetmos."
+q[5]="Sil av. Server med flatbrød." 
+q[6]="Prikk lett i skorpen med gaffel. Anrett i dype tallerkener." 
+q[7]="Skjær i tynne serveringsstykker. Tilbehør: hvitsaus og makaroni." 
+q[8]="Serveres med tyttebærsyltetøy." 
+q[9]="Spis straks." 
+q[10]="Server med ris."
+q[11]="Anrett på en seng av spinat." 
+q[12]="Serveres med lefse og øl."
+
+
+function rndnumber(max){            
+  var randscript = -1
+  while (randscript < 1 || randscript > max || isNaN(randscript)){
+     randscript = parseInt(Math.random()*(max+1))
+  }
+  return randscript
+}
+
+function mat1() {                   
+   var msg = ""                     
+ 
+     
+   subscript=rndnumber(nmax)      // OPPSKRIFT 1 
+   if (n[subscript] != "") {
+      msg = msg + "<b>" + n[subscript] + "</b> "
+   }
+  
+   subscript=rndnumber(hmax)       
+   if (h[subscript] != "") {
+      msg = msg + "<b>" + h[subscript] + "</b>"
+   }
+
+   subscript=rndnumber(tmax)       
+   if (t[subscript] != "") {
+      msg = msg + "<b>" + t[subscript] + "</b><br><br> "
+   }
+  
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + "<br>"
+   }
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + " <br>"
+   }
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + " <br>"
+   }
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + " <br>"
+   }
+
+   subscript=rndnumber(amax)       
+   if (a[subscript] != "") {
+      msg = msg + a[subscript] + " "
+   }
+
+   subscript=rndnumber(cmax)       
+   if (c[subscript] != "") {
+      msg = msg + c[subscript] + " <br><br>"
+   }
+
+
+
+
+   subscript=rndnumber(kmax)       
+   if (k[subscript] != "") {
+      msg = msg + k[subscript] + " "
+   }
+
+   subscript=rndnumber(pmax)       
+   if (p[subscript] != "") {
+      msg = msg + p[subscript] + " "
+   }
+
+
+   subscript=rndnumber(qmax)       
+   if (q[subscript] != "") {
+      msg = msg + q[subscript] + " <br><br><br>"
+   }
+   
+ subscript=rndnumber(nmax)      // OPPSKRIFT 2 
+   if (n[subscript] != "") {
+      msg = msg + "<b>" + n[subscript] + "</b> "
+   }
+  
+   subscript=rndnumber(hmax)       
+   if (h[subscript] != "") {
+      msg = msg + "<b>" + h[subscript] + "</b>"
+   }
+
+   subscript=rndnumber(tmax)       
+   if (t[subscript] != "") {
+      msg = msg + "<b>" + t[subscript] + "</b><br><br> "
+   }
+  
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + "<br>"
+   }
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + "<br>"
+   }
+
+
+
+   subscript=rndnumber(amax)       
+   if (a[subscript] != "") {
+      msg = msg + a[subscript] + " "
+   }
+
+   subscript=rndnumber(cmax)       
+   if (c[subscript] != "") {
+      msg = msg + c[subscript] + " <br><br>"
+   }
+
+   subscript=rndnumber(pmax)       
+   if (p[subscript] != "") {
+      msg = msg + p[subscript] + " "
+   }
+
+
+   subscript=rndnumber(qmax)       
+   if (q[subscript] != "") {
+      msg = msg + q[subscript] + " <br><br><br>"
+   }
+
+
+ subscript=rndnumber(nmax)      // OPPSKRIFT 3 
+   if (n[subscript] != "") {
+      msg = msg + "<b>" + n[subscript] + "</b> "
+   }
+  
+   subscript=rndnumber(hmax)       
+   if (h[subscript] != "") {
+      msg = msg + "<b>" + h[subscript] + "</b>"
+   }
+
+   subscript=rndnumber(tmax)       
+   if (t[subscript] != "") {
+      msg = msg + "<b>" + t[subscript] + "</b><br><br> "
+   }
+  
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + "<br>"
+   }
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + " <br>"
+   }
+
+   subscript=rndnumber(bmax)       
+   if (b[subscript] != "") {
+      msg = msg + b[subscript] + " "
+   }
+
+
+
+
+   subscript=rndnumber(gmax)       
+   if (g[subscript] != "") {
+      msg = msg + g[subscript] + " "
+   }
+
+   subscript=rndnumber(imax)       
+   if (i[subscript] != "") {
+      msg = msg + i[subscript] + " "
+   }
+
+
+   subscript=rndnumber(jmax)       
+   if (j[subscript] != "") {
+      msg = msg + j[subscript] + " <br>"
+   }
+
+   subscript=rndnumber(amax)       
+   if (a[subscript] != "") {
+      msg = msg + a[subscript] + " "
+   }
+
+   subscript=rndnumber(cmax)       
+   if (c[subscript] != "") {
+      msg = msg + c[subscript] + " <br><br>"
+   }
+
+
+
+   subscript=rndnumber(kmax)       
+   if (k[subscript] != "") {
+      msg = msg + k[subscript] + " "
+   }
+
+   subscript=rndnumber(pmax)       
+   if (p[subscript] != "") {
+      msg = msg + p[subscript] + " "
+   }
+
+
+   subscript=rndnumber(qmax)       
+   if (q[subscript] != "") {
+      msg = msg + q[subscript] + " <br>"
+   }
+
+
+
+   return msg
+}
+
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// unhide-->
+
+</script>
+
+</head>
+<body bgcolor="#ffffff" onload="FP_preloadImgs(/*url*/&#39;../images/buttonB.jpg&#39;,/*url*/&#39;../images/buttonC.jpg&#39;)" leftmargin="50" rightmargin="300">
+<p>
+
+<font size="5" face="Verdana">MATOPPSCRIPTER</font></p><hr>
+<p>
+
+<font size="1" face="Verdana">
+<script language="JavaScript"><!--
+
+document.write ( mat1() )
+
+
+// --></script>
+
+
+
+
+
+</p><p>&nbsp;</p>
+<hr>
