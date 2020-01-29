@@ -23,41 +23,45 @@
 "header":{
     "first": ["FORLOREN","BELGISK","GOD, GAMMELDAGS","MORMORS","ENKEL","ANITAS",
               "NORDNORSK","LETTVINT","TILSLØRT","LETTSTEKT","LETTSPIST","MAGER",
-              "","FRU FRYDENLUNDS","AVKOKT","HELSTEKT","GRATINERT","JEVNET"],
+              "","FRU FRYDENLUNDS","AVKOKT","HELSTEKT","GRATINERT","JEVNET",
+          	  "LAKTOSEREDUSERT","GLUTENREDUSERT","BEINFRI","LETT VEGANSK","SVENSK"],
     "second":["JULE","","","MEL","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
-              "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS"],
+              "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS",
+          	  "FULLKORNS","HELLIGDAGS"],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
-              "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE"]
+              "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE"]
   },
 "ingredients":{
-    "amount":["1","1","1","1","2","2","2-3","3","4","5"],
+    "amount":["1","1","1","1","2","2","2-3","3","4","5","12"],
     "unit":  ["ts","ss","dl","kg","liter"],
     "name":  ["rosiner","peanøttsmør","hvetemel","vann","salt","margarin","tørrgjær",
               "baconterninger","melis","kokosmasse","kakaopulver","mandler","margbein",
               "byggmel","rug","tørkede dadler","revet ost","gelatin","potetmel","rømme",
               "cottage cheese","paprikapulver","smult","matfløte","torskerogn","sardiner",
               "smult","grillkrydder","olivenolje","solsikkefrø","soltørkede tomater",
-              "kålrot","skinke"],
+              "kålrot","skinke","delfiafett"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
-              "(lunket i våtbad) ","(til glassur) ","- evt. fiskekraft"," "," "," "," ", 
+              "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," ", 
               " "," "," "," "," "," "," "," "," "," "," "," "]
   },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
-              "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp"],
+              "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp","en neve",
+              "asiatisk"],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
-              "hvitløk"] 
+              "hvitløk","spekulasi"] 
   },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
-              "Form massen med fingrende til festlige figurer.",
+              "Form massen med fingrene til festlige figurer.",
               "Ha i en bolle - og kjør i mixmaster til skummet avtar.",
               "Bland det tørre forsiktig i vesken. Elt.",
               "Hell blandingen i kasserolle. La trekke til massen stivner.",
               "Smelt smøret/maragarinen. Spe på med ingrediensene.",
               "Visp sammen ingrediensene. La blandingen heve i 20 minutter.",
-              "Bland sammen og la svelle.","Rør blandingen lett og smidig." ],
+              "Bland sammen og la svelle.","Rør blandingen lett og smidig."
+          	  "Vent til skummet har lagt seg."],
     "then" : ["Stekes i ca. 30 minutter på midterste rille (250 grader).",
               "Gi et lett oppkok. La det småputre under lokk i 10-15 minutter.",
               "Stekes lett på svak varme. ","Luftavkjøles.","La det fosskoke til massen flyter opp.",
@@ -71,6 +75,6 @@
               "Sil av. Server med flatbrød.","Prikk lett i skorpen med gaffel. Anrett i dype tallerkener.",
               "Skjær i tynne serveringsstykker. Tilbehør: hvitsaus og makaroni.",
               "Serveres med tyttebærsyltetøy.","Spis straks.","Server med ris.","Anrett på en seng av spinat.",
-              "Serveres med lefse og øl."]
+              "Serveres med lefse og øl.","Anrett på lange tallerkener. Serveres med sjysaus."]
   }
 }
