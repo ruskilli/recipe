@@ -1,10 +1,10 @@
 {
 "header":{
-    "first": ["FORLOREN","BELGISK","GOD, GAMMELDAGS","MORMORS","ENKEL","ANITAS",
-              "NORDNORSK","LETTVINT","TILSLØRT","LETTSTEKT","LETTSPIST","MAGER",
-              "","FRU FRYDENLUNDS","AVKOKT","HELSTEKT","GRATINERT","JEVNET",
-          	  "LAKTOSEREDUSERT","GLUTENREDUSERT","BEINFRI","LETT VEGANSK","SVENSK",
-              "FORDØMT", "SATANS", "BEDRITEN"],
+    "first": ["FORLOREN ","BELGISK ","GOD, GAMMELDAGS ","MORMORS ","ENKEL ","ANITAS ",
+              "NORDNORSK ","LETTVINT ","TILSLØRT ","LETTSTEKT ","LETTSPIST ","MAGER ",
+              "","FRU FRYDENLUNDS ","AVKOKT ","HELSTEKT ","GRATINERT ","JEVNET ",
+              "LAKTOSEREDUSERT ","GLUTENREDUSERT ","BEINFRI ","LETT VEGANSK ","SVENSK ",
+              "FORDØMT ", "SATANS ", "BEDRITEN ", "KORTREIST ", "BEDERVET "],
     "second":["JULE","","","MEL","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
               "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS",
           	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLINGENS "],
@@ -81,13 +81,13 @@
     },
     "style":{
       "html":{
-        "header":     {"pre":"<h1>","post":"</h1>",  "each":" "},
+        "header":     {"pre":"<h1>","post":"</h1>",  "each":""},
         "ingredients":{"pre":" - ", "post":"<br />", "each":" "},
         "misc":       {"pre":" - ", "post":"<br />", "each":" "},
         "method":     {"pre":"<p>", "post":"</p>",   "each":"<br />"}
       },
       "markdown":{
-        "header":     {"pre":"# ","post":"# ",  "each":" "},
+        "header":     {"pre":"# ","post":"# ",  "each":""},
         "ingredients":{"pre":"* ", "post":"  \n", "each":" "},
         "misc":       {"pre":"* ", "post":"  \n", "each":" "},
         "method":     {"pre":"  \n", "post":"",   "each":" "}
