@@ -34,7 +34,8 @@
               "asiatisk", "fjorten", "eulers tall"],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
-              "hvitløk","spekulasi", "kombucha", "magesår", "Odin Korsen Svinsås"] 
+              "hvitløk","spekulasi", "kombucha", "magesår", "Odin Korsen Svinsås",
+              "Per Sandberg"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
@@ -47,8 +48,8 @@
               "Bland sammen og la svelle.","Rør blandingen lett og smidig.",
           	  "Vent til skummet har lagt seg.","Bland alt godt i en avsagd hagle.",
               "Ta med til nærmeste atomreaktor og bland godt med anriket uran.",
-              "Bland godt under forhuden, ca 23 minutter frenetiske og repetetive bevegelser.",
-              "Rør godt med kuken til Sveinung"],
+              "Om du er mann - Bland godt under forhuden, ca 12 minutter repetetive bevegelser.",
+              "Rør godt med en noe tilårskommen penis"],
     "then" : ["Stekes i ca. 30 minutter på midterste rille (250 grader).",
               "Gi et lett oppkok. La det småputre under lokk i 10-15 minutter.",
               "Stekes lett på svak varme. ","Luftavkjøles.","La det fosskoke til massen flyter opp.",
@@ -56,7 +57,7 @@
               "Kok opp over omrøring, luft numsehul godt.",
               "Kok opp i en kasserolle med rikelig vann. La småputre under lokk i 45 minutter.",
               "Avkjøl, og hvelv.","Imploder lett i tung psilocybinrus.",
-              "Stek på motorblokka til en Massey 35X med turtall på omkring 2150 i 19 minutter."],
+              "Stek på motorblokka til en Massey 35X med høyt turtall i 13,4 minutter."],
     "final": ["Server med mandelpoteter og broccoli.","Anrett med båndspaghetti og persilledusker.",
               "Server umiddelbart.",
               "La retten stå tildekket og kjølig over natten. Server neste dag med varm potetmos.",
@@ -64,7 +65,8 @@
               "Skjær i tynne serveringsstykker. Tilbehør: hvitsaus og makaroni.",
               "Serveres med tyttebærsyltetøy.","Spis straks.","Server med ris.","Anrett på en seng av spinat.",
               "Serveres med lefse og øl.","Anrett på lange tallerkener. Serveres med sjysaus.",
-              "Serveres med sårskorpe og hodeverk.","Danderes pent på kranium av mammut."]
+              "Serveres med sårskorpe og hodeverk.","Danderes pent på kranium av mammut.", 
+              "Akkompagneres av 'Best of The Julekalender'.", "Pynt med litt Lilli Bendriss."]
 },
 "template":{
     "count":{
