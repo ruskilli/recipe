@@ -1,6 +1,8 @@
 <?php
+// Set this to true for debug messages (will probably break Mattermost intergration) 
+$GLOBALS['debug']          = true;
+$GLOBALS['api_token']      = "my secrat tokkan!";
+$GLOBALS['sqlite_path']    = "var/db.sqlite";
+$GLOBALS['enabled_styles'] = array("food", "beer");
 
-$GLOBALS["debug"]       = true;
-$GLOBALS["api_token"]   = "my secrat tokkan!";
 
-$GLOBALS['sqlite_path'] = "var/db.sqlite";

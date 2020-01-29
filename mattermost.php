@@ -1,10 +1,5 @@
 <?php
-@include_once "libs/debug.php";
-@include_once "libs/json.php";
-@include_once "libs/parser.php";
-
-//Move config to config.php
-@include_once "config.php";
+@include_once "libs/include.php";
 
 if(!isset($_GET['token']) || strcmp($_GET['token'],$GLOBALS['api_token']) !== 0) {
   if(!isset($_POST['token']) || strcmp($_POST['token'],$GLOBALS['api_token']) !== 0) {
@@ -13,12 +8,7 @@ if(!isset($_GET['token']) || strcmp($_GET['token'],$GLOBALS['api_token']) !== 0)
   }
 }
 
-$styles = array("food","beer");
-$style = (isset($_GET["text"]) && in_array($_GET["text"], $types)) ?
-	$_GET['text'] :
-        ((isset($_POST["text"]) && in_array($_POST["text"], $types)) ?
-        $_POST['text'] :
-        "food");
+$style = get_style();
 
 $username = isset($_GET['user_name']) ? $_GET['user_name'] :
         (isset($_POST['user_name']) ? $_POST['user_name'] : "Unknown");

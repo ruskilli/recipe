@@ -1,21 +1,8 @@
 <?php
-@include_once "libs/debug.php";
-@include_once "libs/json.php";
-@include_once "libs/parser.php";
-@include_once "libs/db.php";
+@include_once "libs/include.php";
 
-//Move config to config.php
-@include_once "config.php";
-
-$styles = array("food");
-$style = (isset($_GET["text"]) && in_array($_GET["text"], $types)) ?
-	$_GET['text'] :
-        ((isset($_POST["text"]) && in_array($_POST["text"], $types)) ?
-        $_POST['text'] :
-        "food");
-
-
-$id = $_GET['id'];
+$style = get_style();
+$id    = $_GET['id'];
 
 if(isset($id)) {
   $result = get_id($id);
@@ -25,10 +12,12 @@ if(isset($id)) {
 
 $result = $result ? $result : get_result($style, "html");
 
+// TODO: Make some nice HTML 
+
 echo $result;
 
 if(!isset($id)) {
   $id = store($result);
 }
 
-echo "<a href='?id=$id'>Del</a>";
+echo "<a href='?id=$id'>Del</a> <a href=''>Ny</a>";
