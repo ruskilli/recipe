@@ -1,25 +1,4 @@
 {
-"count":{
-    "recipes":    1,
-    "header":     [1,1],
-    "ingredients":[2,3],
-    "misc":       [1,2],
-    "method":     [1,1]
-  },
-"style":{
-    "html":{
-      "header":     {"pre":"<h1>","post":"</h1>",  "each":" "},
-      "ingredients":{"pre":" - ", "post":"<br />", "each":" "},
-      "misc":       {"pre":" - ", "post":"<br />", "each":" "},
-      "method":     {"pre":"<p>", "post":"</p>",   "each":"<br />"}
-    },
-    "markdown":{
-      "header":     {"pre":"# ","post":"# ",  "each":" "},
-      "ingredients":{"pre":"* ", "post":"  \n", "each":" "},
-      "misc":       {"pre":"* ", "post":"  \n", "each":" "},
-      "method":     {"pre":"  \n", "post":"",   "each":" "}
-    }
-  },
 "header":{
     "first": ["FORLOREN","BELGISK","GOD, GAMMELDAGS","MORMORS","ENKEL","ANITAS",
               "NORDNORSK","LETTVINT","TILSLØRT","LETTSTEKT","LETTSPIST","MAGER",
@@ -30,7 +9,7 @@
           	  "FULLKORNS","HELLIGDAGS"],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE"]
-  },
+},
 "ingredients":{
     "amount":["1","1","1","1","2","2","2-3","3","4","5","12"],
     "unit":  ["ts","ss","dl","kg","liter"],
@@ -43,7 +22,7 @@
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," ", 
               " "," "," "," "," "," "," "," "," "," "," "," "]
-  },
+},
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
               "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp","en neve",
@@ -51,7 +30,7 @@
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi"] 
-  },
+},
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
               "Form massen med fingrene til festlige figurer.",
@@ -76,5 +55,35 @@
               "Skjær i tynne serveringsstykker. Tilbehør: hvitsaus og makaroni.",
               "Serveres med tyttebærsyltetøy.","Spis straks.","Server med ris.","Anrett på en seng av spinat.",
               "Serveres med lefse og øl.","Anrett på lange tallerkener. Serveres med sjysaus."]
-  }
+},
+"template":{
+    "count":{
+      "recipes":    1,
+      "header":     [1,1],
+      "ingredients":[2,3],
+      "misc":       [1,2],
+      "method":     [1,1]
+    },
+    "order":["header","ingredients","misc","method"],
+    "parts":{
+      "header":["first","second","third"],
+      "ingredients":["amount","unit","name","method"],
+      "misc":["amount","name"],
+      "method":["first","then","final"]
+    },
+    "style":{
+      "html":{
+        "header":     {"pre":"<h1>","post":"</h1>",  "each":" "},
+        "ingredients":{"pre":" - ", "post":"<br />", "each":" "},
+        "misc":       {"pre":" - ", "post":"<br />", "each":" "},
+        "method":     {"pre":"<p>", "post":"</p>",   "each":"<br />"}
+      },
+      "markdown":{
+        "header":     {"pre":"# ","post":"# ",  "each":" "},
+        "ingredients":{"pre":"* ", "post":"  \n", "each":" "},
+        "misc":       {"pre":"* ", "post":"  \n", "each":" "},
+        "method":     {"pre":"  \n", "post":"",   "each":" "}
+      }
+   }
+ }
 }

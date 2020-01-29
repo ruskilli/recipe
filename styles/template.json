@@ -1,9 +1,0 @@
-{
-  "order":["header","ingredients","misc","method"],
-  "parts":{
-    "header":["first","second","third"],
-    "ingredients":["amount","unit","name","method"],
-    "misc":["amount","name"],
-    "method":["first","then","final"]
-  }
-}
