@@ -42,9 +42,20 @@
 	      "Other Strong Ale or Lager","Non-Alcoholic Beer","Winter Warmer"]
 },
 "fermentables":{
-    "amount":["1","2","2.1","3","3","3","4","5","6.7"],
+    "amount":["1","1","1.2","1.2","1.5","1.5","1.5","2","2.1","3","3","3","4","5","6.7"],
     "unit":  ["kg"],
-    "name":  ["bygg","havre"]
+    "name":  ["Pale Ale", "Pilsner", "Barke Pilsner", "Bohemian Pilsner", "Golden Promise Pale Ale", "Oata malt", 
+              "Maris Otter Pale Ale", "Munich Light", "Munich", "Farytale Ale", "Fairytale Pils", "Hopshiner Pale", 
+	      "Salome Pale", "Salome Lager", "Wallonia Farmhouse", "Vienna", "Red X", "Abby Malt", "Acid Malt", 
+	      "Amber Malt", "Aroma Malt", "Biscuit Malt", "Black Malt (1300 EBC)", "Brown Malt", "Buckwheat", 
+	      "Cafe Light Malt", "Cafe Malt", "Carabohemian", "Cara Clair", "Cara Blond", "Cara Ruby", "Cara Gold",
+	      "Caraamber", "Carapils", "Carahell", "Carared", "Carafa Special Type 1", "Carafa Special Type 2", 
+	      "Carafa Special Type 3", "Caramalt", "Caramunich Type 1", "Caramunich Type 2", "Caramunich Type 3", 
+	      "Chocolate Malt", "Chocolate Rye Malt", "Chocolate WHeat Malt", "Crystal Malt", "Crystal Malt II", 
+	      "Dark Crystal Malt", "Diastatic Malt", "Flaked Barley", "Flaked oats", "Flaked Wheat", "Flaked Corn", 
+	      "Flaked rice", "Flaked Rye", "Grapenut Granola", "Honning Malt", "Karamell Malt", "Melano Light",
+	      "Melano", "Pale Chocolate", "Pale Crystal", "Peated malt", "Roasted Barley", "Rye Malt", "Smoked Malt",
+	      "Special B", "Special N", "Spelt Malt", "Torrefied Wheat", "Wheat Crystal","Wheat Munich", "Whisky Malt"]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
@@ -55,12 +66,21 @@
               "hvitløk","spekulasi", "kombucha", "magesår", "Odin Korsen Svinsås"] 
 },
 "hops":{
-    "amount":["10","20"],
-    "unit": ["g"],
-    "name": ["Motueka"],
-    "at": ["boil", "dry hop", "hopstand", "mash"],
-    "time": ["60","60","60","15","5"],
-    "final": ["min"]
+    "amount":["1","2", "5", "10", "10","20","20","25","40"],
+    "unit":  ["g"],
+    "name":  ["Ahtanum", "Amarillo", "Azacca", "Cascade", "Centennial", "Chinook", "Citra", "Colombus",
+              "Crystal", "Denali", "DR Rudi", "East Kent Golding", "Eukanot", "El Dorado", "Ella", "Enigma", 
+	      "Fuggle", "Galaxy", "Galena", "Goldings", "Hallertau Hersbrucker", "Hallertau Mittelfrüh", 
+	      "Huell Melon", "Idaho", "Jester", "Lemondrop", "Magnum", "Mandaringa Bavaria", "Medusa", "Monroe",
+	      "Mosaic", "Motueka", "Mount Hood", "Nelson Sauvin", "Northern Brewer", "Nugget", "Pacific Jade", 
+	      "Perle", "Pekko", "Polaris", "Rakau", "Saaz", "Sabro", "Simcoe", "Sorachi Ace", "Southern Passion",
+	      "Strisselspalt", "Styrian Golding", "Summit", "Target", "Tettnanger", "Vic Secret", "Waimea", "Warrior",
+	      "Williamette", "Yellow Sub"],
+    "then":  ["at"],
+    "at":    ["boil", "boil", "boil", "boil", "boil", "boil", "boil", "boil", "dry hop", "hopstand", "mash"],
+    "for":   ["for"],
+    "time":  ["60","60","60","30","15","15","5"],
+    "final": ["minutes"]
 },
 "yeast":{
     "amount": ["1","1","1","1","1","2","2","3","4"],
@@ -95,6 +115,7 @@
     "unit": ["days"]
 },
 "coldcrash": {
+    "first": ["Coldcrash at"],
     "temp": ["1","2","3","3","4","4","4","5","5","5","5","5","5","5","5"],
     "then": ["°C for"],
     "time": ["1","2","3","3-4","4","4-5","5"],
@@ -103,7 +124,7 @@
 "condition": {
     "first": ["Condition for"],
     "time" : ["7","14","21","30","45","60","90"],
-    "unit":  ["days"]
+    "unit":  ["days before serving"]
 },
 "template":{
     "count":{
@@ -127,13 +148,13 @@
       "style":       ["name"],
       "fermentables":["amount","unit","name"],
       "misc":        ["amount","name"],
-      "hops":        ["amount","name","at","time","final"],
+      "hops":        ["amount","unit","name","then","at","for","time","final"],
       "yeast":       ["amount","unit","then","name"], 
       "mash":        ["first","minutes","then","temp","unit"],
       "sparge":      ["first","amount","then","temp","unit"],
       "boil":        ["first","time","unit"],
       "ferment":     ["temp","then","time","unit"],
-      "coldcrash":   ["temp","then","time","unit"],
+      "coldcrash":   ["first","temp","then","time","unit"],
       "condition":   ["first","time","unit"]
     },
     "style":{
