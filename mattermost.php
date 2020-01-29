@@ -13,7 +13,7 @@ if(!isset($_GET['token']) || strcmp($_GET['token'],$GLOBALS['api_token']) !== 0)
   }
 }
 
-$styles = array("food");
+$styles = array("food","beer");
 $style = (isset($_GET["text"]) && in_array($_GET["text"], $types)) ?
 	$_GET['text'] :
         ((isset($_POST["text"]) && in_array($_POST["text"], $types)) ?
@@ -24,9 +24,9 @@ $username = isset($_GET['user_name']) ? $_GET['user_name'] :
         (isset($_POST['user_name']) ? $_POST['user_name'] : "Unknown");
 
 $response = array(
-  response_type => "ephemeral",
-  username      => "Dagens oppskrift",
-  icon_url      => "https://skillingstad.no/generator.png",
+  "response_type" => "ephemeral",
+  "username"      => "Dagens oppskrift",
+  "icon_url"      => "https://skillingstad.no/generator.png",
 );
 
 $result = get_result($style, "markdown");
