@@ -18,21 +18,25 @@ function get_result($style, $format) {
 	// Each part might have a random to:from in template
 	$count = rand($data["template"]["count"][$data["template"]["order"][$o]][0],
 	              $data["template"]["count"][$data["template"]["order"][$o]][1]);
+	// Prepend style for part
+        $result .= $data["template"]["style"][$format][$data["template"]["order"][$o]]["start"];
         for($c = 0; $c < $count; $c++) {
-	  // Prepend style for given part
+	  // Prepend style for each subpart
            $result .= $data["template"]["style"][$format][$data["template"]["order"][$o]]["pre"];
-	   // Loop subparts
+	   // Loop subparts items
 	   for($p = 0; $p < sizeof($data["template"]["parts"][$data["template"]["order"][$o]]); $p++) {
 	      // Randomize item from array
               $rnd = array_rand($data[$data["template"]["order"][$o]][$data["template"]["parts"][$data["template"]["order"][$o]][$p]]);
-	      // Append result
+	      // Append item to result
  	      $result .= $data[$data["template"]["order"][$o]][$data["template"]["parts"][$data["template"]["order"][$o]][$p]][$rnd];
-	      // Append style for each subpart
+	      // Append style for each subpart items
               $result .= $data["template"]["style"][$format][$data["template"]["order"][$o]]["each"];
            }
-	   // Append post style for given part
+	   // Append post style for each subpart
            $result .= $data["template"]["style"][$format][$data["template"]["order"][$o]]["post"] . "\n";
         }
+	// Append final style for part
+	$result .= $data["template"]["style"][$format][$data["template"]["order"][$o]]["stop"];
       }
     }
   }  
