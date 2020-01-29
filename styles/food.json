@@ -10,7 +10,7 @@
           	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLINGENS "],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE",
-              "REDUKSJON", "KURUKE", "PENISFUTTERAL"]
+              "REDUKSJON", "KURUKE", "PENISFUTTERAL", "SUTTEKUGLE", "NUMSEHUL"]
 },
 "ingredients":{
     "amount":["1","1","1","1","2","2","2-3","3","4","5","12"],
@@ -51,7 +51,7 @@
               "Gi et lett oppkok. La det småputre under lokk i 10-15 minutter.",
               "Stekes lett på svak varme. ","Luftavkjøles.","La det fosskoke til massen flyter opp.",
               "Kok opp under omrøring.","Hell i form - og stek i ovn på 225 grader i 40 minutt.",
-              "Kok opp under omrøring.",
+              "Kok opp over omrøring, luft numsehul godt.",
               "Kok opp i en kasserolle med rikelig vann. La småputre under lokk i 45 minutter.",
               "Avkjøl, og hvelv.","Imploder lett i tung psilocybinrus.",
               "Stek på motorblokka til en Massey 35X med turtall på omkring 2150 i 19 minutter."],
