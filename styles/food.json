@@ -7,13 +7,13 @@
               "FORDØMT ", "SATANS ", "BEDRITEN ", "KORTREIST ", "BEDERVET "],
     "second":["JULE","","","MEL","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
               "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS",
-          	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLINGENS "],
+          	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLING", " "],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE",
               "REDUKSJON", "KURUKE", "PENISFUTTERAL", "SUTTEKUGLE", "NUMSEHUL"]
 },
 "ingredients":{
-    "amount":["1","1","1","1","2","2","2-3","3","4","5","12"],
+    "amount":["1","1","1","1","2","2","2-3","3","4","5","12","1,5"],
     "unit":  ["ts","ss","dl","kg","liter"],
     "name":  ["rosiner","peanøttsmør","hvetemel","vann","salt","margarin","tørrgjær",
               "baconterninger","melis","kokosmasse","kakaopulver","mandler","margbein",
@@ -30,12 +30,12 @@
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
-              "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp","en neve",
-              "asiatisk", "fjorten", "eulers tall"],
+              "vegetabilsk","2 ss kanadisk","raspet","litt lunkent","en kopp","en neve",
+              "asiatisk", "fjorten", "dæsh", "overambisiøs", "to lumpne"],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi", "kombucha", "magesår", "Odin Korsen Svinsås",
-              "Per Sandberg"] 
+              "Per Sandberg", "reduksjon av nyretransplantasjon"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
