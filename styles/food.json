@@ -7,10 +7,10 @@
               "FORDØMT ", "SATANS ", "BEDRITEN ", "KORTREIST ", "BEDERVET "],
     "second":["JULE","","","MEL","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
               "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS",
-          	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLING", " "],
+          	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLING", ""],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE",
-              "REDUKSJON", "KURUKE", "PENISFUTTERAL", "SUTTEKUGLE", "NUMSEHUL"]
+              "REDUKSJON", "KURUKE", "PENISFUTTERAL", "SUTTEKUGLE", "NUMSEHUL","LÄSK"]
 },
 "ingredients":{
     "amount":["1","1","1","1","2","2","2-3","3","4","5","12","1,5"],
@@ -22,11 +22,11 @@
               "smult","grillkrydder","olivenolje","solsikkefrø","soltørkede tomater",
               "kålrot","skinke","delfiafett", "bakfot av enkeltbekkasin", "sorgtåre(r)",
               "tøysete karikatur av person med ikke-normativ seksualitet", 
-              "livet's harde skole-alumni"],
+              "livet's harde skole-alumni","bjellesau"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
-              "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," ", 
-              "- gjerne bederva"," "," "," "," ","-lett marmorert"," "," "," "," "," ",
-              "(kan inneholde spor av kjønnshår)", "- tilsatt uten engasjement"]
+              "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
+              "- gjerne bederva"," "," "," "," ","-lett marmorert"," "," "," "," "," "," ",
+              "(kan inneholde spor av kjønnshår)", "- tilsatt uten engasjement","(glutenfri)"]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
@@ -35,7 +35,7 @@
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi", "kombucha", "magesår", "Odin Korsen Svinsås",
-              "Per Sandberg", "reduksjon av nyretransplantasjon"] 
+              "Per Sandberg", "reduksjon av nyretransplantasjon","kvinnemelk","mannejuice","kveitehode"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
@@ -49,7 +49,8 @@
           	  "Vent til skummet har lagt seg.","Bland alt godt i en avsagd hagle.",
               "Ta med til nærmeste atomreaktor og bland godt med anriket uran.",
               "Om du er mann - Bland godt under forhuden, ca 12 minutter repetetive bevegelser.",
-              "Rør godt med en noe tilårskommen penis"],
+              "Rør godt med en noe tilårskommen penis.",
+              "Om du er kvinne - rull massen på innsiden av låret i ca. 30 minutter."],
     "then" : ["Stekes i ca. 30 minutter på midterste rille (250 grader).",
               "Gi et lett oppkok. La det småputre under lokk i 10-15 minutter.",
               "Stekes lett på svak varme. ","Luftavkjøles.","La det fosskoke til massen flyter opp.",
@@ -57,7 +58,9 @@
               "Kok opp over omrøring, luft numsehul godt.",
               "Kok opp i en kasserolle med rikelig vann. La småputre under lokk i 45 minutter.",
               "Avkjøl, og hvelv.","Imploder lett i tung psilocybinrus.",
-              "Stek på motorblokka til en Massey 35X med høyt turtall i 13,4 minutter."],
+              "Stek på motorblokka til en Massey 35X med høyt turtall i 13,4 minutter.",
+              "Varm med andakt over bokbål.","Frys ned kryogenisk.","Grill på svak varme i altfor lang tid."
+              "Kok opp til massen skiller seg. Hent ut det resterende med grovmasket håv."],
     "final": ["Server med mandelpoteter og broccoli.","Anrett med båndspaghetti og persilledusker.",
               "Server umiddelbart.",
               "La retten stå tildekket og kjølig over natten. Server neste dag med varm potetmos.",
@@ -66,7 +69,8 @@
               "Serveres med tyttebærsyltetøy.","Spis straks.","Server med ris.","Anrett på en seng av spinat.",
               "Serveres med lefse og øl.","Anrett på lange tallerkener. Serveres med sjysaus.",
               "Serveres med sårskorpe og hodeverk.","Danderes pent på kranium av mammut.", 
-              "Akkompagneres av 'Best of The Julekalender'.", "Pynt med litt Lilli Bendriss."]
+              "Akkompagneres av 'Best of The Julekalender'.", "Pynt med litt Lilli Bendriss.","Vær grei og snill.",
+              "Tenk på hvor godt du har det.","Bli overrasket.","Ta deg sammen.","Lek med kjønnsorganet ditt."]
 },
 "template":{
     "count":{
