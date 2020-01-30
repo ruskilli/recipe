@@ -4,13 +4,15 @@
               "NORDNORSK ","LETTVINT ","TILSLØRT ","LETTSTEKT ","LETTSPIST ","MAGER ",
               "","FRU FRYDENLUNDS ","AVKOKT ","HELSTEKT ","GRATINERT ","JEVNET ","",
               "LAKTOSEREDUSERT ","GLUTENREDUSERT ","BEINFRI ","LETT VEGANSK ","SVENSK ",
-              "FORDØMT ", "SATANS ", "BEDRITEN ", "KORTREIST ", "BEDERVET ", "FERMENTERT "],
+              "FORDØMT ", "SATANS ", "BEDRITEN ", "KORTREIST ", "BEDERVET ", "FERMENTERT ",
+	      "FREMMED ", "OFFENTLIG ", "POSJERT ", "MOST ", "INNBAKT ", "FRITERT "],
     "second":["JULE","","","MEL","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
               "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS",
-          	  "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLING", ""],
+	      "FULLKORNS","HELLIGDAGS", "HEIMERT", "BYGDETULLING", "", "URBEFOLKNINGS",
+	      "SOUS VIDE-"],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE",
-              "REDUKSJON", "KURUKE", "SUTTEKUGLE", "LÄSK"]
+              "REDUKSJON", "KURUKE", "SUTTEKUGLE", "LÄSK", "STEK", "PIZZA", "SUSHI"]
 },
 "ingredients":{
     "amount":["1","1","1","1","1,5","2","2","2-3","3","4","5","12"],
@@ -25,7 +27,8 @@
               "livet's harde skole-alumni","bjellesau", "Gastromat - det herlige krydder",
               "hudflak fra populistisk og rabulistisk politiker","nebbspiss av fossekall",
               "chiliolje","hjerterot","kvann","sløkje","skolekritt","mandelflarn","Canesten",
-	      "oter", "grønnkål", "tofu"],
+	      "oter", "grønnkål", "tofu","rødbeter","surmelk","stikkelsbær","spelt","krabbe", 
+	      "samlivsbrudd"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
               "- gjerne bederva"," "," "," "," ","- lett marmorert"," "," "," "," "," "," ",
@@ -41,7 +44,7 @@
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi", "kombucha", "magesår", "raspet elghov", "knoppandvorter",
               "osteoporose", "nyretransplantasjonreduksjon","kvinnemelk","mannejuice","kveitehode",
-	      "løvetannekstrakt", "jurflass", "tavlekritt"] 
+	      "løvetannekstrakt", "jurflass", "tavlekritt", "tacokrydder", "majones"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
