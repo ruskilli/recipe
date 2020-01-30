@@ -12,7 +12,8 @@
 	      "SOUS VIDE-"],
     "third": ["PUDDING","FROMAGE","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE",
-              "REDUKSJON", "KURUKE", "SUTTEKUGLE", "LÄSK", "STEK", "PIZZA", "SUSHI"]
+              "REDUKSJON", "KURUKE", "SUTTEKUGLE", "LÄSK", "STEK", "PIZZA", "SUSHI",
+	      "PANNE", "OMELETT", "KABARET"]
 },
 "ingredients":{
     "amount":["1","1","1","1","1,5","2","2","2-3","3","4","5","12"],
@@ -28,12 +29,12 @@
               "hudflak fra populistisk og rabulistisk politiker","nebbspiss av fossekall",
               "chiliolje","hjerterot","kvann","sløkje","skolekritt","mandelflarn","Canesten",
 	      "oter", "grønnkål", "tofu","rødbeter","surmelk","stikkelsbær","spelt","krabbe", 
-	      "samlivsbrudd"],
+	      "samlivsbrudd", "oliven", "tyttebær"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
               "- gjerne bederva"," "," "," "," ","- lett marmorert"," "," "," "," "," "," ",
               "(kan inneholde spor av kjønnshår)", "- tilsatt uten engasjement","(glutenfri)",
-	      "(gjæret)", "(frittgående)"]
+	      "(kremet)", "(frittgående)"]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
@@ -44,7 +45,8 @@
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi", "kombucha", "magesår", "raspet elghov", "knoppandvorter",
               "osteoporose", "nyretransplantasjonreduksjon","kvinnemelk","mannejuice","kveitehode",
-	      "løvetannekstrakt", "jurflass", "tavlekritt", "tacokrydder", "majones"] 
+	      "løvetannekstrakt", "jurflass", "tavlekritt", "tacokrydder", "majones","soyasaus",
+	      "krill", "lakrisrot", "dill", "melis", "grønn konditorfarge"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
@@ -60,7 +62,8 @@
               "La det hele få litt betenkningstid og grunne over sin eksistens", 
               "Om du er mann - Bland godt under forhuden, ca 12 minutter repetetive bevegelser.",
               "Om du er kvinne - rull massen på innsiden av låret i ca. 30 minutter.",
-              "Ha alle ingrediensene i en pose, pakk dem i sekken og sett ny personlig rekord på Birken."],
+              "Ha alle ingrediensene i en pose, pakk dem i sekken og sett ny personlig rekord på Birken.",
+	      "Legg ingrediensene i vannbad i 14 timeri."],
     "then" : ["Stekes i ca. 30 minutter på midterste rille (250 grader).",
               "Gi et lett oppkok. La det småputre under lokk i 10-15 minutter.",
               "Stekes lett på svak varme. ","Luftavkjøles.","La det fosskoke til massen flyter opp.",
@@ -70,7 +73,8 @@
               "Avkjøl, og hvelv.","Imploder lett i tung psilocybinrus.",
               "Stek på motorblokka til en Massey 35X med høyt turtall i 13,4 minutter.",
               "Varm med andakt over bokbål.","Frys ned kryogenisk.","Grill på svak varme i altfor lang tid.",
-              "Kok opp til massen skiller seg. Hent ut det resterende med grovmasket håv."],
+              "Kok opp til massen skiller seg. Hent ut det resterende med grovmasket håv.",
+	      "Dask med persilledusk til potetene blir forlegne."],
     "final": ["Server med mandelpoteter og broccoli.","Anrett med båndspaghetti og persilledusker.",
               "Server umiddelbart.",
               "La retten stå tildekket og kjølig over natten. Server neste dag med varm potetmos.",
