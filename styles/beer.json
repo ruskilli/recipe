@@ -2,7 +2,7 @@
 "header":{
     "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG "],
     "second":["JULE","","","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
-              "HØYTIDS","GOURMET","HVERDAGS","FATTIGMANNS","FULLKORNS"],
+              "HØYTIDS","GOURMET","HVERDAGS","FATTIGMANNS","FULLKORNS", "HIPSTER"],
     "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG"]
 },
 "style":{
