@@ -20,7 +20,7 @@ body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 13pt;
   font-weight: 400;
-  line-height: 1em;
+  line-height: 1.4em;
 }
 
 ul {
@@ -73,7 +73,7 @@ img {
   border-color: #6ba0e6;
   border-width: 1px;
   padding: 2em;
-  height: 90%
+  height: 88%
 }
 .title {
   font-size: 2.25em;
@@ -92,19 +92,22 @@ img {
 
 .share {
   padding-top: 2.5em;
+  position: absolute;
+  bottom: 44%;
 }
 
 .share_id,.share_new {
-  background: #adc5e7;
+  background: #d7e2f2;
   padding: 0.3em;
   border-radius: 7px;
   border-style: solid;
   border-width: 2px;
-  border-color: #dbe5f4;
+  border-color: #adc5e7;
 }
 
 .about {
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-left: 1em;
   font-size: .75em;
   height: 1em;
 }
