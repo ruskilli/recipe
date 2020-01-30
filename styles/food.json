@@ -89,16 +89,16 @@
     },
     "style":{
       "html":{
-        "header":     {"pre":"<h1>","post":"</h1>",  "each":""},
-        "ingredients":{"pre":" - ", "post":"<br />", "each":" "},
-        "misc":       {"pre":" - ", "post":"<br />", "each":" "},
-        "method":     {"pre":"<p>", "post":"</p>",   "each":"<br />"}
-      },
+        "header":     {"pre":"<h1>", "post":"</h1>", "each":"",       "start":"",     "stop":""},
+        "ingredients":{"pre":"<li>", "post":"</li>", "each":" ",      "start":"<ul>", "stop":""},
+        "misc":       {"pre":"<li>", "post":"</li>", "each":" ",      "start":"",     "stop":"</ul>"},
+        "method":     {"pre":"<p>",  "post":"</p>",  "each":"<br />", "start":"",     "stop":""}
+	},
       "markdown":{
-        "header":     {"pre":"# ","post":"# ",  "each":""},
-        "ingredients":{"pre":"* ", "post":"  \n", "each":" "},
-        "misc":       {"pre":"* ", "post":"  \n", "each":" "},
-        "method":     {"pre":"  \n", "post":"",   "each":" "}
+        "header":     {"pre":"# ",   "post":"# ",   "each":"",  "start":"", "stop":""},
+        "ingredients":{"pre":"* ",   "post":"  \n", "each":" ", "start":"", "stop":""},
+        "misc":       {"pre":"* ",   "post":"  \n", "each":" ", "start":"", "stop":""},
+        "method":     {"pre":"  \n", "post":"",     "each":" ", "start":"", "stop":""}
       }
    }
  }
