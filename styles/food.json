@@ -93,10 +93,10 @@
     },
     "style":{
       "html":{
-        "header":     {"pre":"<h1>", "post":"</h1>", "each":"",       "start":"",     "stop":""},
-        "ingredients":{"pre":"<li>", "post":"</li>", "each":" ",      "start":"<ul>", "stop":""},
-        "misc":       {"pre":"<li>", "post":"</li>", "each":" ",      "start":"",     "stop":"</ul>"},
-        "method":     {"pre":"<p>",  "post":"</p>",  "each":"<br />", "start":"",     "stop":""}
+        "header":     {"pre":"  <div class='title'>", "post":"</div>", "each":"",       "start":"",     "stop":""},
+        "ingredients":{"pre":"      <li>", "post":"</li>", "each":" ",      "start":"  <div class='ingredients'>\n    <ul>", "stop":""},
+        "misc":       {"pre":"      <li>", "post":"</li>", "each":" ",      "start":"",     "stop":"    </ul>\n  </div>"},
+        "method":     {"pre":"  <div class='method'>",  "post":"  </div>",  "each":"<br />", "start":"",     "stop":""}
 	},
       "markdown":{
         "header":     {"pre":"# ",   "post":"# ",   "each":"",  "start":"", "stop":""},
