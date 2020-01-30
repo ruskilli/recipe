@@ -33,11 +33,12 @@
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
               "vegetabilsk","2 ss kanadisk","raspet","litt lunkent","en kopp","en neve",
-              "asiatisk", "fjorten","tretten-fjorten","en dæsh","overambisiøs","to lumpne"],
+              "asiatisk", "fjorten enheter","tretten-fjorten enheter","en dæsh",
+              "en overambisiøs mengde","to klumper"],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve","ballesten",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi", "kombucha", "magesår", "raspet elghov", "knoppandvorter",
-              "osteoporose", "reduksjon av nyretransplantasjon","kvinnemelk","mannejuice","kveitehode"] 
+              "osteoporose", "nyretransplantasjonreduksjon","kvinnemelk","mannejuice","kveitehode"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
