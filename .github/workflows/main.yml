@@ -9,6 +9,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Copy code to 
-      run: echo "Balle"
-    
+    - name: Copy code to PROD
+      run: cp -r recipe /tmp    
