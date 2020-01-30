@@ -51,7 +51,7 @@ img {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; /* Chrome */
   width: max-content;
-  height: 75%;
+  height: 65%;
 }
 
 .outerbox {
