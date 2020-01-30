@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Copy code to PROD
-      run: ls > /tmp/DEBUG    
+      run: jsonlint-php -q styles/*.json >/dev/null 2>&1 && cp -r . /var/www/recipe
