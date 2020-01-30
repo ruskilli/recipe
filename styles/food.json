@@ -24,11 +24,13 @@
               "tøysete karikatur av person med ikke-normativ seksualitet", "cocktailbær", 
               "livet's harde skole-alumni","bjellesau", "Gastromat - det herlige krydder",
               "hudflak fra populistisk og rabulistisk politiker","nebbspiss av fossekall",
-              "chiliolje","hjerterot","kvann","sløkje","skolekritt","mandelflarn","Canesten"],
+              "chiliolje","hjerterot","kvann","sløkje","skolekritt","mandelflarn","Canesten",
+	      "oter", "grønnkål", "tofu"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
               "- gjerne bederva"," "," "," "," ","- lett marmorert"," "," "," "," "," "," ",
-              "(kan inneholde spor av kjønnshår)", "- tilsatt uten engasjement","(glutenfri)"]
+              "(kan inneholde spor av kjønnshår)", "- tilsatt uten engasjement","(glutenfri)",
+	      "(gjæret)", "(frittgående)"]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
@@ -38,7 +40,8 @@
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve","ballesten",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","spekulasi", "kombucha", "magesår", "raspet elghov", "knoppandvorter",
-              "osteoporose", "nyretransplantasjonreduksjon","kvinnemelk","mannejuice","kveitehode"] 
+              "osteoporose", "nyretransplantasjonreduksjon","kvinnemelk","mannejuice","kveitehode",
+	      "kvann", "løvetannekstrakt", "jurflass"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
