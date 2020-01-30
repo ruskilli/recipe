@@ -21,7 +21,7 @@ if(!isset($id)) {
 $dwoo_core = new Dwoo\Core();
 $dwoo_core->setCompileDir($GLOBALS['dwoo_compile_dir']);
 
-$dwoo_tpl  = new Dwoo\Template\File("templates/html/food.tpl");
+$dwoo_tpl  = new Dwoo\Template\File("templates/html/". $style . ".tpl");
 $dwoo_data = new Dwoo\Data();
 
 $dwoo_data->assign('result', $result);
