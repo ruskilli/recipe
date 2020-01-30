@@ -9,7 +9,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Test secret
-      run: echo ${{ secrets.PROD }} > /tmp/SECRAT
     - name: Copy code to PROD
-      run: jsonlint-php -q styles/*.json >/dev/null 2>&1 && (cp -r . /var/www/recipe/ 2>/dev/null;echo "Deployed") || echo "JSON not correct"
+      run: jsonlint-php -q styles/*.json >/dev/null 2>&1 && (cp -r . ${{ secrets.PROD_DIR }} 2>/dev/null;echo "Deployed") || echo "JSON not correct"
