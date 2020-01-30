@@ -7,20 +7,20 @@
 </head>
 <body>
 <div class="background">
-<div class="outerbox">
-<div class="innerbox">
-<div class="result">
-{$result}
-</div>
-<div>
-<img class="picture" src="https://source.unsplash.com/320x240/?food" />
+ <div class="outerbox">
+  <div class="innerbox">
+   <div class="result">
+    {$result}
+   </div>
+   <div>
+    <img class="picture" src="https://source.unsplash.com/320x240/?food" />
+   </div>
+  </div>
+ </div>
 </div>
 <div class="share">
   <span class="share_id"><a href="?id={$id}">Del</a></span>
   <span class="share_new"><a href="?id">Ny</a></span>
-</div>
-</div>
-</div>
 </div>
 <div class="about">
   <a href="https://github.com/ruskilli/recipe">Source at GitHub</a>
