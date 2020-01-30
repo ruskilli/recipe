@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/food.css" />
 </head>
 <body>
+<div class="background">
 <div class="outerbox">
 <div class="innerbox">
 <div class="result">
@@ -20,6 +21,7 @@
 <div class="about">
   <a href="https://github.com/ruskilli/recipe">Source at GitHub</a> - 
   <img src="https://github.com/ruskilli/recipe/workflows/Build/badge.svg" alt="Build status" />
+</div>
 </div>
 </body>
 </html>
