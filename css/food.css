@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-image: url("/img/food_bg.png");
   color: #666;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 13pt;
@@ -19,7 +19,7 @@ body {
 }
 
 ul {
-  margin-left:-1em;
+  margin-left:-1.2em;
   list-style-type: square;
 }
 
@@ -27,7 +27,7 @@ li {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #333;
 }
 
@@ -40,6 +40,25 @@ img {
   max-height: 100%;
 }
 
+.outerbox {
+  border-style: solid;
+  border-color: #6ba0e6;
+  border-width: 5px;
+  margin: 1em;
+  padding: 0.8em;
+  background: #fff;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+  width: max-content;
+}
+
+.innerbox {
+  border-style: solid;
+  border-color: #6ba0e6;
+  border-width: 1px;
+  padding: 2em;
+}
 .title {
   font-size: 2.25em;
   line-height: 1.5em;
@@ -56,7 +75,16 @@ img {
 
 
 .share {
-  padding-top: .5em;
+  padding-top: 2.5em;
+}
+
+.share_id,.share_new {
+  background: #adc5e7;
+  padding: 0.3em;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dbe5f4;
 }
 
 .about {

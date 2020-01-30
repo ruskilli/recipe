@@ -6,12 +6,16 @@
   <link rel="stylesheet" href="css/food.css" />
 </head>
 <body>
+<div class="outerbox">
+<div class="innerbox">
 <div class="result">
 {$result}
 </div>
 <div class="share">
   <span class="share_id"><a href="?id={$id}">Del</a></span> - 
   <span class="share_new"><a href="?id">Ny</a></span>
+</div>
+</div>
 </div>
 <div class="about">
   <a href="https://github.com/ruskilli/recipe">Source at GitHub</a> - 
