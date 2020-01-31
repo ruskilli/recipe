@@ -43,14 +43,14 @@
               "oter","grønnkål","tofu","rødbeter","surmelk","stikkelsbær","spelt","krabbe", 
               "oliven","tyttebær","schnabelkäse","autentiseringsnøkkel","skjørost",
               "IRC-bot","kildekode","balleskjegg","sjalottløk","ramsløk","tragant",
-              "alfalfaspirer","kråkeboller","sjøstjerner",],
+              "alfalfaspirer","kråkeboller","sjøstjerner"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
               "- gjerne bederva"," "," "," "," ","- lett marmorert"," "," "," "," "," "," ",
               "(kan inneholde spor av depresjon)", "- tilsatt uten engasjement","(glutenfri)",
-              "(kremet)", "(frittgående)", "(kan godt være litt velmenende)", "(helst uten jod)",
-              "- MÅ være økologisk!"," "," "," "," ","(velfrisert)", "- dette kan godt kompliseres noe",
-              "- eller sukkerfri marsipan", "(halvtint)", "- gjerne kandisert"]
+              "(kremet)", "(frittgående)","(kan godt være litt velmenende)", "(helst uten jod)",
+              "- MÅ være økologisk!"," "," "," "," ","(velfrisert)","- dette kan godt kompliseres noe",
+              "- eller sukkerfri marsipan","(halvtint)","- gjerne kandisert"]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
