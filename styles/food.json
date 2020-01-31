@@ -39,7 +39,7 @@
               "hudflak fra populistisk og rabulistisk politiker","nebbspiss av fossekall",
               "chiliolje","hjerterot","kvann","sløkje","skolekritt","mandelflarn","Canesten",
 	      "oter", "grønnkål", "tofu","rødbeter","surmelk","stikkelsbær","spelt","krabbe", 
-	      "samlivsbrudd", "oliven", "tyttebær", "schnabelkäse","autentiseringsnøkkel",
+	      "oliven", "tyttebær", "schnabelkäse","autentiseringsnøkkel",
 	      "IRC-bot", "kildekode", "balleskjegg", "sjalottløk", "ramsløk"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
@@ -61,7 +61,7 @@
               "osteoporose", "reduksjon av nyretransplantasjon","kvinnemelk","mannejuice","kveitehode",
 	      "løvetannekstrakt", "jurflass", "tavlekritt", "tacokrydder", "majones","soyasaus",
 	      "krill", "lakrisrot", "dill", "melis", "grønn konditorfarge","antibac","sitronsaft",
-	      "hvalspekk", "med noe fra utlandet"] 
+	      "hvalspekk", "med noe fra utlandet","aromat","grillkrydder","wasabi"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
@@ -111,7 +111,7 @@
     "count":{
       "recipes":    1,
       "header":     [1,1],
-      "ingredients":[2,3],
+      "ingredients":[2,4],
       "misc":       [1,2],
       "method":     [1,1]
     },
