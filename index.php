@@ -26,6 +26,7 @@ $dwoo_data = new Dwoo\Data();
 
 $dwoo_data->assign('result', $result);
 $dwoo_data->assign('id'    , $id);
+$dwoo_data->assign('time'  , time());
 
 echo $dwoo_core->get($dwoo_tpl, $dwoo_data);
 

@@ -25,7 +25,7 @@
 <div class="about">
   <a href="https://github.com/ruskilli/recipe">Source at GitHub</a>
   <br>
-  <img src="https://github.com/ruskilli/recipe/workflows/Build/badge.svg" alt="Build status" />
+  <img src="https://github.com/ruskilli/recipe/workflows/Build/badge.svg?{$time}" alt="Build status" />
 </div>
 </body>
 </html>
