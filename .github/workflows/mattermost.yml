@@ -1,17 +1,15 @@
-name: CI
+name: Mattermost
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
+    - name: Create the Mattermost Message
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        echo "{\"text\":\"testing github action :tada:\"}" > mattermost.json
+    - uses: mattermost/action-mattermost-notify@master
+      env:
+        MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
