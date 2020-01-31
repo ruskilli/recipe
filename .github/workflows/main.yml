@@ -14,7 +14,7 @@ jobs:
     - name: Status message to Mattermost
       run: |
         STATUS=$(ls)
-        curl -i -X POST -H 'Content-Type: application/json' -d "{\"text\":\"$STATUS\"}"
+        curl -i -X POST -H 'Content-Type: application/json' -d "{\"text\":\"$STATUS\"}" ${{ secrets.MATTERMOST_WEBHOOK_URL }}
       env:
         MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
       
