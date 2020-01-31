@@ -13,7 +13,7 @@
               "MØRNET ","PANNESTEKT ","BENFRI "],
     "second":["JULE","","","MEL","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
               "HØYTIDS","MEDISTER","GOURMET","HVERDAGS","MORMONER","FATTIGMANNS",
-	      "FULLKORNS","HELLIGDAGS","HEIMERT","BYGDETULLING","","URBEFOLKNINGS",
+	      "FULLKORNS","HELLIGDAGS","HEIMERT","BYGDETULLING","",
 	      "SOUS VIDE-","REGJERINGS","SILDE","VÅRONN","SHERRY", "LAVKARBO",
 	      "FASTELAVN","VINTER","SOMMER","SOLSNU","360-GRADERS", "FORSKNINGS",
 	      "TILSLØRTE ","SVINE","BUDSJETT","OVERRASKELSES","HELSE","PROTEIN","RUG",
@@ -48,7 +48,7 @@
               "(kan inneholde spor av depresjon)", "- tilsatt uten engasjement","(glutenfri)",
 	      "(kremet)", "(frittgående)", "(kan godt være litt velmenende)", "(helst uten jod)",
 	      "- MÅ være økologisk!", "(velfrisert)", "- dette kan godt kompliseres noe",
-	      "- eller sukkerfri marsipan", "(halvtint)"]
+	      "- eller sukkerfri marsipan", "(halvtint)", "- gjerne kandisert"]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
