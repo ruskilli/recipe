@@ -9,8 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Copy code to PROD
-      run: jsonlint-php -q styles/*.json >/dev/null 2>&1 && (cp -r . ${{ secrets.PROD_DIR }} 2>/dev/null;echo "Deployed") || (echo "JSON not correct"; exit 1)
     - name: Status message to Mattermost
       run: |
         STATUS=$(git log | sed 's/"/\x27/g')
@@ -21,4 +19,6 @@ jobs:
       run: |
         JSON=$(jsonlint-php -q styles/*.json 2>&1 | sed 's/"/\x27/g')
         test -z "$JSON" || curl -i -X POST -H 'Content-Type: application/json' -d "{\"text\":\":warning: : $JSON\"}" ${{ secrets.MATTERMOST_WEBHOOK_URL }}
+    - name: Copy code to PROD
+      run: jsonlint-php -q styles/*.json >/dev/null 2>&1 && (cp -r . ${{ secrets.PROD_DIR }} 2>/dev/null;echo "Deployed") || (echo "JSON not correct"; exit 1)
       
