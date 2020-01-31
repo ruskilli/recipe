@@ -11,8 +11,7 @@ jobs:
     - uses: actions/checkout@v2
       with: 
         fetch-depth: 0
-    - run: git checkout HEAD^
-      
+          
     - name: Status message to Mattermost
       run: |
         STATUS=$(git show --name-status | sed 's/"/\x27/g')
