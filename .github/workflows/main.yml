@@ -9,7 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with: fetch-depth: 2
+      with: 
+        fetch-depth: 2
     - run: git checkout HEAD^
       
     - name: Status message to Mattermost
