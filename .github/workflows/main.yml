@@ -15,7 +15,7 @@ jobs:
       
     - name: Status message to Mattermost
       run: |
-        STATUS=$(git log | sed 's/"/\x27/g')
+        STATUS=$(git show --name-status | sed 's/"/\x27/g')
         curl -i -X POST -H 'Content-Type: application/json' -d "{\"text\":\"$STATUS\"}" ${{ secrets.MATTERMOST_WEBHOOK_URL }}
       env:
         MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
