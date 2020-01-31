@@ -68,7 +68,8 @@
               "krill", "lakrisrot", "dill", "melis", "grønn konditorfarge","antibac","sitronsaft",
               "hvalspekk", "med noe fra utlandet","aromat","grillkrydder","wasabi","pomeransskall",
               "pomeranspulver","apsikat","portvin","amaretto","amarulla","Grand Marnier","fleinsopp",
-              "terteskjell","MSG","Valmuefrø"] 
+              "terteskjell","MSG","valmuefrø","kandiserte kastanjer","granateplefrø","pistasjnøtter",
+              "kakaonibs"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
@@ -86,7 +87,8 @@
               "Om du er kvinne - rull massen på innsiden av låret i ca. 30 minutter.",
               "Ha alle ingrediensene i en pose, pakk dem i sekken og sett ny personlig rekord på Birken.",
 	            "Legg ingrediensene i vannbad i 14 timer.","Vet du egentlig hva du driver med?",
-              "Bland de to smetene sammen.","Kastes sammen i hui og hast.",
+              "Bland de to smetene sammen.","Kastes sammen i hui og hast.","Bland alt sammen med tresleiv.",
+              "Skjær inn alle tørre ingredienser.",
               "Pisk sammen alle ingrediensene til det dannes myke topper."],
     "then" : ["Stekes i ca. 30 minutter på midterste rille (250 grader).",
               "Gi et lett oppkok. La det småputre under lokk i 10-15 minutter.",
