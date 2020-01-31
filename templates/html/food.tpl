@@ -4,6 +4,14 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Matoppskrift</title>
   <link rel="stylesheet" href="css/food.css" />
+  <script>
+    window.onkeydown = function(event){
+      if(event.keyCode === 32) {
+	event.preventDefault();
+	document.getElementById("new").click();
+      }
+    };
+  </script>
 </head>
 <body>
 <div class="background">
@@ -19,8 +27,8 @@
  </div>
 </div>
 <div class="share">
-  <span class="share_id"><a href="?id={$id}">Del</a></span>
-  <span class="share_new"><a href="?id">Ny</a></span>
+  <span class="share_id"><a id='share' href="?id={$id}">Del</a></span>
+  <span class="share_new"><a id='new' href="?id">Ny</a></span>
 </div>
 <div class="about">
   <a href="https://github.com/ruskilli/recipe">Source at GitHub</a>
