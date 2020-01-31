@@ -17,7 +17,7 @@
               "FULLKORNS","HELLIGDAGS","HEIMERT","BYGDETULLING","",
               "SOUS VIDE-","REGJERINGS","SILDE","VÅRONN","SHERRY", "LAVKARBO",
               "FASTELAVN","VINTER","SOMMER","SOLSNU","360-GRADERS", "FORSKNINGS",
-              "TILSLØRTE ","SVINE","BUDSJETT","OVERRASKELSES","HELSE","PROTEIN","RUG",
+              "TILSLØRT ","SVINE","BUDSJETT","OVERRASKELSES","HELSE","PROTEIN","RUG",
               "LUTE"],
     "third": ["PUDDING","FROMASJ","PAI","SUFFLÈ","GRYTE","STUING","RISOTTO","GRØT",
               "BAKKELS","SNACKS","BLANDING","SUPPE","KOMPOTT","HØNE","KVEITE",
@@ -50,7 +50,7 @@
               "(kan inneholde spor av depresjon)", "- tilsatt uten engasjement","(glutenfri)",
               "(kremet)", "(frittgående)","(kan godt være litt velmenende)", "(helst uten jod)",
               "- MÅ være økologisk!"," "," "," "," ","(velfrisert)","- dette kan godt kompliseres noe",
-              "- eller sukkerfri marsipan","(halvtint)","- gjerne kandisert"]
+              "- eller sukkerfri marsipan","(halvtint)","- gjerne kandisert"," "," "," "," "]
 },
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
