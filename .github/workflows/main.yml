@@ -17,9 +17,7 @@ jobs:
       run: |
         STATUS=$(git show --name-status | sed 's/"/\x27/g')
         curl -i -X POST -H 'Content-Type: application/json' -d "{\"text\":\"$STATUS\"}" ${{ secrets.MATTERMOST_WEBHOOK_URL }}
-      env:
-        MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
-        
+              
     - name: "JSONLINT to Mattermost"
       run: |
         JSON=$(jsonlint-php -q styles/*.json 2>&1 | sed 's/"/\x27/g')
