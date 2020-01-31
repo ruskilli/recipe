@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Status message to Mattermost
       run: |
-        STATUS=$(git log --name-status HEAD^..HEAD|sed s'/"/\'/g');
+        STATUS=$(git log --name-status HEAD^..HEAD|sed s'/"//g');
         echo "{\"text\":\"$STATUS\"}" > mattermost.json
     - uses: mattermost/action-mattermost-notify@master
       env:
