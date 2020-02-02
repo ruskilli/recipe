@@ -45,7 +45,8 @@
               "oliven","tyttebær","schnabelkäse","gammelsalta sei","skjørost","seilaks",
               "IRC-bot","kildekode","balleskjegg","sjalottløk","ramsløk","tragant","fiskeboller",
               "alfalfaspirer","kråkeboller","sjøstjerner","hvalkjaker","fiskemel","sildolje",
-              "Tropisk Aroma","surströmming","chiafrø","havremelk","svisker"],
+              "Tropisk Aroma","surströmming","chiafrø","havremelk","svisker","makrell",
+	      "torsketunger","semulegryn","durian"],
     "method":["(skoldet)","- eller lignende","- eventuelt hasselnøtter","(kan sløyfes)",
               "(lunket i våtbad) ","(til glasur) ","- evt. fiskekraft"," "," "," "," "," ",
               "- gjerne bederva"," "," "," "," ","- lett marmorert"," "," "," "," "," "," ",
@@ -69,7 +70,7 @@
               "hvalspekk", "med noe fra utlandet","aromat","grillkrydder","wasabi","pomeransskall",
               "pomeranspulver","apsikat","portvin","amaretto","amarulla","Grand Marnier","fleinsopp",
               "terteskjell","MSG","valmuefrø","kandiserte kastanjer","granateplefrø","pistasjnøtter",
-              "kakaonibs","stevia","sitronpepper"] 
+              "kakaonibs","stevia","sitronpepper","sukat","ansjos","honning"] 
 },
 "method":{
     "first": ["Bland ingrediensene.","Elt til en jevn masse.","Kna til en jevn deig.",
