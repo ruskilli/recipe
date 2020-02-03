@@ -1,6 +1,7 @@
 {
 "header":{
-    "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN "],
+    "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN ",
+              "", "", "MICROBRYGGET", "JUICY", "DUNKEL"],
     "second":["JULE","","","MANDEL-","PEANØTT-","LØRDAGS-","LUKSUS","JUKSE-", "KAKE-", "KLASSISK ",
               "HØYTIDS-","GOURMET-","HVERDAGS-","FATTIGMANNS-","FULLKORNS-", "HIPSTER-", "PÅSKE-"],
     "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG"]
@@ -63,7 +64,8 @@
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
               "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp","en neve",
               "asiatisk", "fjorten", "overraskende mye", "10 ml", "34 gram", "en drøy halvkilo",
-	      "ubegrensa mengde", "valgfritt med", "så mye du vil av"],
+	      "ubegrensa mengde", "valgfritt med", "så mye du vil av", "en halv pakke",
+              "rå", "tørket", "1 cm", "to enheter", "finknust" , "frysetørket", "maks 2"],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","ryllik", "kombucha", "magesår", "pors","gjærnæring","klarningsmiddel",
@@ -71,11 +73,14 @@
 	      "Tetrahydrocannabinololje","plommestein","vannmelon","honning","demerarasukker",
 	      "kandissukker","lønnesirup","amerikansk flagg","muscovadosukker","berylliumekstrakt",
 	      "Kalsiumsulfat","Kalsiumklorid","Kalsiumkarbonat","Natriumbikarbonat","Magnesiumsulfat",
-	      "Melkesyre 80%", "Fosforsyre 85%", "Havsalt", "edderdun"],
+	      "Melkesyre 80%", "Fosforsyre 85%", "Havsalt", "edderdun", "natreen", "flerumettet fett",
+              "riboflavin", "gastromat", "limesteiner", "gulrotjuice", "lakris", "vademecum",
+              "stjerneanis", "nellik", "mentol", "peppermynte", "koriander", "hestehov", "Bailey's"],
     "more":  [" - knust i morter", " ", " (strøs lett over)", " (hold i godt knyttet neve og trø hånda nedi under kok)", 
 	      " - 10 minutter kok", " - 12 minutter kok", " - 0,3 minutter kok", " - 60 minutter kok", " - 20 minutter kok", 
 	      " (hakket med urtehakker)", " (knust under skoa)", " "," - legges forsiktig på lokket", 
-	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", " ", " ", " ", " ", " ", " ", " ", 
+	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", "(i foodprocessor)", "(lufttørket)",
+	      "- rør godt!", "- smeltet", "(whirlpool mot klokka)", " ", " ", " ", " ", " ", " ", " ", 
 	      " ", " "]
 	
 },
