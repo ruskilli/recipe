@@ -1,8 +1,8 @@
 {
 "header":{
-    "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG "],
-    "second":["JULE","","","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE",
-              "HØYTIDS","GOURMET","HVERDAGS","FATTIGMANNS","FULLKORNS", "HIPSTER"],
+    "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN"],
+    "second":["JULE","","","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE", "KAKE", "KLASSISK"
+              "HØYTIDS","GOURMET","HVERDAGS","FATTIGMANNS","FULLKORNS", "HIPSTER", "PÅSKE"],
     "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG"]
 },
 "style":{
@@ -42,7 +42,8 @@
 	      "Other Strong Ale or Lager","Non-Alcoholic Beer","Winter Warmer"]
 },
 "fermentables":{
-    "amount":["1","1","1.2","1.2","1.5","1.5","1.5","2","2.1","3","3","3","4","5","6.7"],
+    "amount":["0,3","0,4","0,5","0,6","0,75","0,8","1","1","1,2","1,2","1,2","1,35","1,4","1,5","1,5","1,63","1,71","2",
+	      "2,1","2,13","2,2","2,5","2,8","3","3","3,1","3,5","4","5","6,7","200"],
     "unit":  ["kg"],
     "name":  ["Pale Ale", "Pilsner", "Barke Pilsner", "Bohemian Pilsner", "Golden Promise Pale Ale", "Oata malt", 
               "Maris Otter Pale Ale", "Munich Light", "Munich", "Farytale Ale", "Fairytale Pils", "Hopshiner Pale", 
@@ -60,13 +61,22 @@
 "misc":{
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
               "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp","en neve",
-              "asiatisk", "fjorten", "eulers tall"],
+              "asiatisk", "fjorten", "overraskende mye", "10 ml", "34 gram", "en drøyh halvkilo",
+	      "ubegrensa mengde", "valgfritt med", ],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
-              "hvitløk","spekulasi", "kombucha", "magesår", "Odin Korsen Svinsås"] 
+              "hvitløk","ryllik", "kombucha", "magesår", "pors","gjærnæring","klarningsmiddel",
+	      "haze-pulver","ekstrakt av barkebille", "Siebeldiplom","tørket stemorsblomst",
+	      "Tetrahydrocannabinololje","plommestein","vannmelon","honning","demerarasukker",
+	      "kandissukker","lønnesirup","amerikansk flagg","muscovadosukker","berylliumekstrakt"],
+    "more":  [" - knust i morter", " (strøs lett over)", " (hold i godt knyttet neve og trø hånda nedi under kok)", 
+	      " - 10 minutter kok", " - 12 minutter kok", " - 0,3 minutter kok", " - 60 minutter kok", " - 20 minutter kok", 
+	      " (hakket med urtehakker)", " (knust under skoa)", " - legges forsiktig på lokket", 
+	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", "", "", "", "", "", "", "", ""]
+	
 },
 "hops":{
-    "amount":["1","2", "5", "10", "10","20","20","25","40"],
+    "amount":["1","2", "5", "10", "10","20","20","25","40","75", "50"],
     "unit":  ["g"],
     "name":  ["Ahtanum", "Amarillo", "Azacca", "Cascade", "Centennial", "Chinook", "Citra", "Colombus",
               "Crystal", "Denali", "DR Rudi", "East Kent Golding", "Eukanot", "El Dorado", "Ella", "Enigma", 
@@ -76,55 +86,100 @@
 	      "Perle", "Pekko", "Polaris", "Rakau", "Saaz", "Sabro", "Simcoe", "Sorachi Ace", "Southern Passion",
 	      "Strisselspalt", "Styrian Golding", "Summit", "Target", "Tettnanger", "Vic Secret", "Waimea", "Warrior",
 	      "Williamette", "Yellow Sub"],
-    "then":  ["at"],
-    "at":    ["boil", "boil", "boil", "boil", "boil", "boil", "boil", "boil", "dry hop", "hopstand", "mash"],
-    "for":   ["for"],
-    "time":  ["60","60","60","30","15","15","5"],
-    "final": ["minutes"]
+    "then":  ["på"],
+    "at":    ["kok", "kok", "kok", "kok", "kok", "kok", "kok", "kok", "tørrhumle", "tørrhumle", "first wort",
+	      "hopstand", "under mesking"],
+    "for":   ["i"],
+    "time":  ["90","60","60","60","45","30","20","15","15","13,5""10","5","5","5","3"],
+    "final": ["minutter"]
 },
 "yeast":{
-    "amount": ["1","1","1","1","1","2","2","3","4"],
-    "unit":   ["packs"],
-    "then":   ["of"],
-    "name":   ["kveik"]
+    "amount": ["300","400","450","450","500","2000","380","399","450","7000","10000"],
+    "unit":   ["milliarder celler"],
+    "then":   ["med"],
+    "name":   ["Ebbegarden kveik", "WLP001 - California Ale", "WLP002 -English Ale", "WLP003 - German Ale II", 
+	       "WLP004 - Irish Ale", "WLP005 - British Ale", "WLP006 - Bedford British Ale", "WLP007 - Dry English Ale", 
+	       "WLP008 - East Coast Ale", "WLP009 - Australian Ale", "WLP011 - European Ale", "WLP013 - London Ale", 
+	       "WLP017 - Whitbread II Ale", "WLP019 - California IV Ale", "WLP022 - Essex Ale", "WLP023 - Burton Ale", 
+	       "WLP025 - Southwold Ale", "WLP026 - Premium Bitter Ale", "WLP028 - Edinburgh Scottish Ale", 
+	       "WLP029 - German Ale/Kölsch", "WLP030 - Thames Valley Ale", "WLP033 - Klassik Ale", 
+	       "WLP036 - Düsseldorf Alt Ale", "WLP037 - Yorkshire Square Ale", "WLP038 - Manchester Ale",
+	       "WLP039 - East Midlands Ale", "WLP041 - Pacific Ale", "WLP045 - Scottish Whisky", 
+	       "WLP050 - Tennesee Whiskey", "WLP051 - California V Ale", "WLP059 - Melbourne Ale", 
+	       "WLP060 - American Ale Blend", "WLP064 - Buchner Ale", "WLP065 - American Whiskey", 
+	       "WLP066 - London Fog Ale", "WLP067 - Coastal Haze Ale Blend", "WLP070 - Kentucky Bourbon", 
+	       "WLP072 - French Ale", "WLP073 - Artisanal Country Ale", "WLP075 - Hansen Ale", "WLP076 - Old Sonoma Ale",
+	       "WLP078 - Neutral Grain", "WLP080 - Cream Ale Blend", "WLP085 - English Ale Blend", 
+	       "WLP090 - San Diego Super", "WLP095 - Burlington Ale", "WLP099 - Super High Gravity Ale",
+	       "WLP1983 - Charlie's Fist Bump", "WLP300 - Hefeweizen Ale", "WLP320 - American Hefeweizen Ale", 
+	       "WLP351 - Bavarian Weizen", "WLP380 - Hefeweizen IV Ale", "WLP400 - Belgian Wit Ale", 
+	       "WLP410 - Belgian Wit II Ale", "WLP500 - Monastery Ale Yeast", "WLP510 - Bastogne Belgian Ale", 
+	       "WLP515 - Antwerp Ale", "WLP518 - Opshaug Kveik Ale", "WLP530 - Abbey Ale", "WLP540 - Abbeu IV Ale", 
+	       "WLP545 - Belgian Stron Ale", "WLP546 - Marañón Canyon Wild Cacao", "WLP550 - Belgian Ale", 
+	       "WLP564 - Leeuwenhiek Saison Blend", "WLP565 - Belgian Saison I Ale", "WLP566 - Belgian Saison II Ale",
+	       "WLP568 - Belgian Style Saison Ale Blend", "WLP570 - Belgian Golden Ale", "WLP575 - Belgian Style Ale Blend", 
+	       "WLP590 - French Saison Ale", "WLP600 - Kombucha Scoby", "WLP603 - Torulaspora Delbrueckii", 
+	       "WLP611 - New Nordic Ale", "WLP616 - Funky Cider Blend", "WLP630 - Berliner Weisse Blend", 
+	       "WLP640 - Brettanomyces Anomalus", "WLP644 - Saccharomyces 'Bruxellensis' Trois", 
+	       "WLP645 - Brettanomyces Claussenii", "WLP648 - Brettanomyces Bruxellensis Trois Vrai", 
+	       "WLP650 - Brettanomyces Bruxellensis", "WLP653 - Brettanomyces Lambicus", 
+	       "WLP655 - Belgian Sour Mix 1", "WLP661 - Pediococcus Damnosus", "WLP665 - Flemish Ale Blend", 
+	       "WLP669 - Lactobacillus Paracollinoides", "WLP670 - American Farmhouse Blend", 
+	       "WLP672 - Lactobacillus Brevis", "WLP673 - Lactobacillus Buchneri", "WLP675 - Malolactic Cultures", 
+	       "WLP677 - Lactobacillus Delbrueckii Bacteria", "WLP678 - Lactobacillus Hilgardii", 
+	       "WLP692 - Debaromyces Hansenii", "WLP693 - Lactobacillus Plantarum", "WLP700 - Flor Sherry", 
+	       "WLP705 - Sake #7", "WLP709 - Sake #9", "WLP715 - Champagne", "WLP749 Assmanshausen Wine", 
+	       "WLP773 - Scottish Cider Blend", "WLP775 - English Cider", "WLP780 - Thai Rice Chong", 
+	       "WLP800 - Pilsner Lager", "WLP802 - Czech Budejovice Lager", "WLP810 - San Francisco Lager", 
+	       "WLP815 - Belgian Lager", "WLP820 - Oktoberfest/Märzen Lager", "WLP830 - German Lager", 
+	       "WLP833 - German Bock Lager", "WLP835 - German X Lager", "WLP838 - Southern German Lager", 
+	       "WLP840 - American Lager", "WLP845 - Fast Lager", "WLP850 - Copenhagen Lager", 
+	       "WLP860 - Munich Helles Lager", "WLP885 - Zurich Lager", "WLP920 - Old Bavarian Lager", 
+	       "WLP925 - High Pressure Lager", "WLP940 - Mexican Lager"]
 },
 "mash":{
-    "first":   ["Mash for"],
-    "minutes": ["15","30","60","60","60","90"],
-    "then" :   ["at"],
-    "temp":    ["55","65","72"],
+    "first":   ["Mesk i"],
+    "minutes": ["15","30","60","60","60","75","75","90","120","1200","5000"],
+    "then" :   ["på"],
+    "temp":    ["2","10","12","15","20","25", "45","50","55","58","60","61","62","63","64","65","66",
+		"67","68","69","70","71","72","76","77","78","103","110","120","150","200"],
     "unit":    ["°C"]
     
 },
 "sparge":{
-    "first":  ["Sparge"],
-    "amount": ["1","3-4","12.1"],
-    "then":   [" L at"],
-    "temp":   ["23"],
+    "first":  ["Skyll med"],
+    "amount": ["1","3,14159265359","3-4","6","7","7,5","9,9","12,1","13,4","18","21","500","2000","2139"],
+    "then":   [" Liter på"],
+    "temp":   ["2","10","12","15","20","25", "45","50","55","58","60","61","62","63","64","65","66",
+		"67","68","69","70","71","72","76","77","78","103","110","120","150","200"],
     "unit":   ["°C"]
 },
 "boil":{
-    "first": ["Boil for"],
-    "time":  ["30","45","60","60","60","60","60","60","60","90"],
-    "unit": ["minutes"]
+    "first": ["Kok i "],
+    "time":  ["3","10","15","30","45","60","60","60","60","60","60","60","60","60","60","75","75","75",
+	      "75","75","90","90","90","120","130","200","500","10.000"],
+    "unit": ["minutter"]
 },
 "ferment":{
-    "temp": ["10","12","14","16","18","18","20","20","22","35"],
-    "then": ["°C for"],
-    "time": ["1","2","3","3","4","4","5","5","6","7","8","9"],
-    "unit": ["days"]
+    "temp": ["-15","-5","3","8","9","9","10","10","10","12","14","12-24","16","17","18","18","18","18","20","20","22",
+	     "25","28","30","32","35","37","37","40","42","83,2","96"],
+    "then": ["°C "],
+    "time": ["1","2","3","3","4","4","5","5","6","7","8","9","9","9","10","10","10","11","12","13","14","16","21","23",
+	     "25","30","40","50","60","100","1.253"],
+    "unit": ["dager"]
 },
 "coldcrash": {
-    "first": ["Coldcrash at"],
-    "temp": ["1","2","3","3","4","4","4","5","5","5","5","5","5","5","5"],
-    "then": ["°C for"],
-    "time": ["1","2","3","3-4","4","4-5","5"],
-    "unit": ["days"]
+    "first": ["Coldcrash på"],
+    "temp": ["-30","-15","1","2","3","3","4","4","4","5","5","5","5","5","5","5","5"],
+    "then": ["°C i"],
+    "time": ["1","2","3","3-4","4","4-5","5","5-6","6","7","8","9","10","12","14","26","452"],
+    "unit": ["dager"]
 },
 "condition": {
-    "first": ["Condition for"],
-    "time" : ["7","14","21","30","45","60","90"],
-    "unit":  ["days before serving"]
+    "first": ["Lagres/modnes i "],
+    "time" : ["2","3","5","7","14","14","14","16,3","18", "21","30","45","60","60","90","90","120","150","200"
+	      "210","250","301","600"],
+    "unit":  ["dager før servering"]
 },
 "template":{
     "count":{
@@ -147,7 +202,7 @@
       "header":      ["first","second","third"],
       "style":       ["name"],
       "fermentables":["amount","unit","name"],
-      "misc":        ["amount","name"],
+      "misc":        ["amount","name","more"],
       "hops":        ["amount","unit","name","then","at","for","time","final"],
       "yeast":       ["amount","unit","then","name"], 
       "mash":        ["first","minutes","then","temp","unit"],
