@@ -1,7 +1,7 @@
 {
 "header":{
     "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN ",
-              "", "", "MICROBRYGGET", "JUICY", "DUNKEL"],
+              "", "", "MICROBRYGGET ", "JUICY ", "DUNKEL "],
     "second":["JULE","","","MANDEL-","PEANØTT-","LØRDAGS-","LUKSUS","JUKSE-", "KAKE-", "KLASSISK ",
               "HØYTIDS-","GOURMET-","HVERDAGS-","FATTIGMANNS-","FULLKORNS-", "HIPSTER-", "PÅSKE-", "KLOSTER"],
     "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG", "WEISSE", "SAISON", "DIPA", 
