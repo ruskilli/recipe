@@ -212,7 +212,7 @@
       "condition":   [0,1],
 	  "sg":			 [1,1]
     },
-    "order":["header","style","fermentables","misc","hops","yeast","mash","sparge","boil","ferment","coldcrash","condition"],
+    "order":["header","style","fermentables","misc","hops","yeast","mash","sparge","boil","ferment","coldcrash","condition","sg"],
     "parts":{
       "header":      ["first","second","third"],
       "style":       ["name"],
