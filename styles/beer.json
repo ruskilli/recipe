@@ -69,10 +69,11 @@
 	      "haze-pulver","ekstrakt av barkebille", "Siebeldiplom","tørket stemorsblomst",
 	      "Tetrahydrocannabinololje","plommestein","vannmelon","honning","demerarasukker",
 	      "kandissukker","lønnesirup","amerikansk flagg","muscovadosukker","berylliumekstrakt"],
-    "more":  [" - knust i morter", " (strøs lett over)", " (hold i godt knyttet neve og trø hånda nedi under kok)", 
+    "more":  [" - knust i morter", " ", " (strøs lett over)", " (hold i godt knyttet neve og trø hånda nedi under kok)", 
 	      " - 10 minutter kok", " - 12 minutter kok", " - 0,3 minutter kok", " - 60 minutter kok", " - 20 minutter kok", 
 	      " (hakket med urtehakker)", " (knust under skoa)", " - legges forsiktig på lokket", 
-	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", "", "", "", "", "", "", "", ""]
+	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", " ", " ", " ", " ", " ", " ", " ", 
+	      " ", " "]
 	
 },
 "hops":{
@@ -216,14 +217,14 @@
       "html":{
         "header":      {"pre":"<h1>","post":"</h1>", "each":"", "start":"",                 "stop":""},
 	"style":       {"pre":"<h3>","post":"</h3>", "each":"", "start":"",                 "stop":""},
-        "fermentables":{"pre":"<li>","post":"</li>", "each":" ","start":"Fermentables:<ul>","stop":"</ul>"},
-        "misc":        {"pre":"<li>","post":"</li>", "each":" ","start":"Misc:<ul>",        "stop":"</ul>"},
-	"hops":        {"pre":"<li>","post":"</li>", "each":" ","start":"Hops:<ul>",        "stop":"</ul>"},
-	"yeast":       {"pre":"<li>","post":"</li>", "each":" ","start":"Yeast:<ul>",       "stop":"</ul>"},
-	"mash":        {"pre":"<li>","post":"</li>", "each":" ","start":"Mash:<ul>",        "stop":"</ul>"},
+        "fermentables":{"pre":"<li>","post":"</li>", "each":" ","start":"Gjærbart:<ul>","stop":"</ul>"},
+        "misc":        {"pre":"<li>","post":"</li>", "each":" ","start":"Annet:<ul>",        "stop":"</ul>"},
+	"hops":        {"pre":"<li>","post":"</li>", "each":" ","start":"Humle:<ul>",        "stop":"</ul>"},
+	"yeast":       {"pre":"<li>","post":"</li>", "each":" ","start":"Gjær:<ul>",       "stop":"</ul>"},
+	"mash":        {"pre":"<li>","post":"</li>", "each":" ","start":"Mesk:<ul>",        "stop":"</ul>"},
 	"sparge":      {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"boil":        {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"ferment":     {"pre":"<li>","post":"</li>", "each":" ","start":"Fermentation:<ul>","stop":"</ul>"},
+	"boil":        {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":"<br>"},
+	"ferment":     {"pre":"<li>","post":"</li>", "each":" ","start":"Fermentering:<ul>","stop":"</ul>"},
 	"coldcrash":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
 	"condition":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""}
 
