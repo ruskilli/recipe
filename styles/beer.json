@@ -200,6 +200,19 @@
 	      "210","250","301","600"],
     "unit":  ["dager før servering"]
 },
+"ebcibuabv": {
+    "first": ["EBC: "],
+    "ebc" : ["1","3-4","5","7-10","14","18","25","28,3","32", "35","41","48","54","62","71,2","78,223","86","91","95",
+	         "99","101","112","666"],
+    "second":  [" - IBU "],
+	"third":	["(Tinseth): ", "(Simple): ", "(Noonan): ", "(Rager): ", "(Garetz): "],
+	"ibu":	["-20","0","3","11","14","17","21","24","29","32","34","37","41","43","45","47","55","62","69",
+	         "81,2","96","99,9","110", "165","185","200","666","TI TUSEN!!"],
+	"fourth":	["<br />Alkoholgehalt: "],
+	"abv":	["-2%","0,0%","0,7%","1,1%","2,0%","2,9%","3,4%","3,8%","4,1%","4,5%","4,7%","5,2%","5,5%","5,8%","6,1%", "6,432%",
+	         "7%","7,3%","7,5%","7,7%","8,002%","8,4%","8,75%","8,9%","9,1%","9,5%","9,99%","10%","10,5%","10,9%","11,2%","11,6%",
+			 "12%","12,6%","13,1%","14,6%","15%","16%","19%","21,1%","96%","100%","666%","TUSENVIS AV ALKOHOL!"]
+},
 "template":{
     "count":{
       "recipes":     1,
@@ -215,7 +228,8 @@
       "ferment":     [1,3],
       "coldcrash":   [0,1],
       "condition":   [0,1],
-	  "sg":			 [1,1]
+	  "sg":			 [1,1],
+	  "ebcibuabv":	 [1,1]
     },
     "order":["header","style","fermentables","misc","hops","yeast","mash","sparge","boil","ferment","coldcrash","condition","sg"],
     "parts":{
@@ -231,7 +245,8 @@
       "ferment":     ["temp","then","time","unit"],
       "coldcrash":   ["first","temp","then","time","unit"],
       "condition":   ["first","time","unit"],
-	  "sg":			 ["first","og","second","fg","third","atten"]
+	  "sg":			 ["first","og","second","fg","third","atten"],
+	  "ebcibuabv":	 ["first","ebc","second","third","ibu","fourth","abv"]
     },
     "style":{
       "html":{
@@ -247,7 +262,8 @@
 	"ferment":     {"pre":"<li>","post":"</li>", "each":" ","start":"Fermentering:<ul>","stop":"</ul>"},
 	"coldcrash":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
 	"condition":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"sg":		   {"pre":"<br />",	 "post":"<br />","each":" ","start":"",	    	   		"stop":""}
+	"sg":		   {"pre":"<br />","post":"<br />","each":" ","start":"",	    	   		"stop":""},
+	"ebcibuabv":   {"pre":"",    "post":"<br />","each":" ","start":"", 				"stop":""}
 
       },
       "markdown":{
