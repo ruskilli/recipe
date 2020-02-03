@@ -242,7 +242,7 @@
 	"ferment":     {"pre":"<li>","post":"</li>", "each":" ","start":"Fermentering:<ul>","stop":"</ul>"},
 	"coldcrash":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
 	"condition":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"sg":		   {"pre":"",	 "post":"<br />","each":" ","start":"Graviditet:",	    "stop":""},
+	"sg":		   {"pre":"",	 "post":"<br />","each":" ","start":"Graviditet:",	    "stop":""}
 
       },
       "markdown":{
