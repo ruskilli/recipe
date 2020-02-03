@@ -231,7 +231,7 @@
 	  "sg":			 [1,1],
 	  "ebcibuabv":	 [1,1]
     },
-    "order":["header","style","fermentables","misc","hops","yeast","mash","sparge","boil","ferment","coldcrash","condition","sg"],
+    "order":["header","style","fermentables","misc","hops","yeast","mash","sparge","boil","ferment","coldcrash","condition","sg","ebcibuabv"],
     "parts":{
       "header":      ["first","second","third"],
       "style":       ["name"],
