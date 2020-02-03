@@ -68,10 +68,12 @@
               "hvitløk","ryllik", "kombucha", "magesår", "pors","gjærnæring","klarningsmiddel",
 	      "haze-pulver","ekstrakt av barkebille", "Siebeldiplom","tørket stemorsblomst",
 	      "Tetrahydrocannabinololje","plommestein","vannmelon","honning","demerarasukker",
-	      "kandissukker","lønnesirup","amerikansk flagg","muscovadosukker","berylliumekstrakt"],
+	      "kandissukker","lønnesirup","amerikansk flagg","muscovadosukker","berylliumekstrakt",
+	      "Kalsiumsulfat","Kalsiumklorid","Kalsiumkarbonat","Natriumbikarbonat","Magnesiumsulfat",
+	      "Melkesyre 80%", "Fosforsyre 85%", "Havsalt", "edderdun"],
     "more":  [" - knust i morter", " ", " (strøs lett over)", " (hold i godt knyttet neve og trø hånda nedi under kok)", 
 	      " - 10 minutter kok", " - 12 minutter kok", " - 0,3 minutter kok", " - 60 minutter kok", " - 20 minutter kok", 
-	      " (hakket med urtehakker)", " (knust under skoa)", " - legges forsiktig på lokket", 
+	      " (hakket med urtehakker)", " (knust under skoa)", " "," - legges forsiktig på lokket", 
 	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", " ", " ", " ", " ", " ", " ", " ", 
 	      " ", " "]
 	
