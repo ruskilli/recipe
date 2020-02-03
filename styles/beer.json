@@ -1,8 +1,8 @@
 {
 "header":{
-    "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN"],
-    "second":["JULE","","","MANDEL","PEANØTT","LØRDAGS","LUKSUS","JUKSE", "KAKE", "KLASSISK",
-              "HØYTIDS","GOURMET","HVERDAGS","FATTIGMANNS","FULLKORNS", "HIPSTER", "PÅSKE"],
+    "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN "],
+    "second":["JULE","","","MANDEL-","PEANØTT-","LØRDAGS-","LUKSUS","JUKSE-", "KAKE-", "KLASSISK ",
+              "HØYTIDS-","GOURMET-","HVERDAGS-","FATTIGMANNS-","FULLKORNS-", "HIPSTER-", "PÅSKE-"],
     "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG"]
 },
 "style":{
