@@ -3,9 +3,8 @@
     "first": ["FUNKY ", "SUR ", "HÅNDBRYGGET ", "GAMMEL ", "KREMET ", "RØYKET ", "KRYDRET ", "SNODIG ", "LEKEN ",
               "", "", "MICROBRYGGET", "JUICY", "DUNKEL"],
     "second":["JULE","","","MANDEL-","PEANØTT-","LØRDAGS-","LUKSUS","JUKSE-", "KAKE-", "KLASSISK ",
-              "HØYTIDS-","GOURMET-","HVERDAGS-","FATTIGMANNS-","FULLKORNS-", "HIPSTER-", "PÅSKE-", "KLOSTER"],
-    "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG", "WEISSE", "SAISON", "DIPA", 
-		      "NEIPA", "RØD", "SAISON", "TRIPPEL", "RÅØL", "WIT", "SURØL", "ØL"]
+              "HØYTIDS-","GOURMET-","HVERDAGS-","FATTIGMANNS-","FULLKORNS-", "HIPSTER-", "PÅSKE-"],
+    "third": ["LAGER", "PILS", "ALE", "ALE", "ALE", "ALE", "IPA", "IPA", "APA", "PORTER", "STOUT", "BRYGG"]
 },
 "style":{
     "name":  ["Classic English-Style Pale Ale","English-Style India Pale Ale","Ordinary Bitter","Special Bitter or Best Bitter",
@@ -65,7 +64,8 @@
     "amount":["en klype","litt","dypfryst","rikelig med","siktet","revet","en knivsodd",
               "vegetabilsk","2 ss kanadisk","raspet","litt lunket","en kopp","en neve",
               "asiatisk", "fjorten", "overraskende mye", "10 ml", "34 gram", "en drøy halvkilo",
-	      "ubegrensa mengde", "valgfritt med", "så mye du vil av"],
+	      "ubegrensa mengde", "valgfritt med", "så mye du vil av", "en halv pakke",
+              "rå", "tørket", "1 cm", "to enheter", "finknust" , "frysetørket", "maks 2"],
     "name":  ["allehånde","pulverkaffe","strøkavring","kokosfett","einebær","karve",
               "buljongpulver","brunsukker","kanel","gurkemeie","meierismør","leverpostei",
               "hvitløk","ryllik", "kombucha", "magesår", "pors","gjærnæring","klarningsmiddel",
@@ -73,11 +73,14 @@
 	      "Tetrahydrocannabinololje","plommestein","vannmelon","honning","demerarasukker",
 	      "kandissukker","lønnesirup","amerikansk flagg","muscovadosukker","berylliumekstrakt",
 	      "Kalsiumsulfat","Kalsiumklorid","Kalsiumkarbonat","Natriumbikarbonat","Magnesiumsulfat",
-	      "Melkesyre 80%", "Fosforsyre 85%", "Havsalt", "edderdun"],
+	      "Melkesyre 80%", "Fosforsyre 85%", "Havsalt", "edderdun", "natreen", "flerumettet fett",
+              "riboflavin", "gastromat", "limesteiner", "gulrotjuice", "lakris", "vademecum",
+              "stjerneanis", "nellik", "mentol", "peppermynte", "koriander", "hestehov", "Bailey's"],
     "more":  [" - knust i morter", " ", " (strøs lett over)", " (hold i godt knyttet neve og trø hånda nedi under kok)", 
 	      " - 10 minutter kok", " - 12 minutter kok", " - 0,3 minutter kok", " - 60 minutter kok", " - 20 minutter kok", 
 	      " (hakket med urtehakker)", " (knust under skoa)", " "," - legges forsiktig på lokket", 
-	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", " ", " ", " ", " ", " ", " ", " ", 
+	      " - OBS! Husk hansker!", " (Forsiktig, dette er varmt.)", "(i foodprocessor)", "(lufttørket)",
+	      "- rør godt!", "- smeltet", "(whirlpool mot klokka)", " ", " ", " ", " ", " ", " ", " ", 
 	      " ", " "]
 	
 },
@@ -160,14 +163,6 @@
 		"67","68","69","70","71","72","76","77","78","103","110","120","150","200"],
     "unit":   ["°C"]
 },
-"sg":{
-    "first": ["Forventet OG: "],
-    "og":  ["1.040", "1.032", "1.050","1.062","1.099","1.044","1.100","1.102","1.002","1.010",
-	        "1.202","1.126","1.088","Aner ikke","?.???","?.???","?.???","MILDE HIMMEL!" ],
-    "second": ["Forventet FG: "],
-	"fg": ["0.996", "1.000", "1.002", "1.008", "1.009", "1.010", "1.012", "1.013","1.014", "1.016", 
-		   "1.020", "1.026", "1.030", "1.100", "1.088", "1.050", "1.202" ]
-},
 "boil":{
     "first": ["Kok i "],
     "time":  ["3","10","15","30","45","60","60","60","60","60","60","60","60","60","60","75","75","75",
@@ -209,8 +204,7 @@
       "boil":        [1,1],
       "ferment":     [1,3],
       "coldcrash":   [0,1],
-      "condition":   [0,1],
-	  "sg":			 [1,1]
+      "condition":   [0,1]
     },
     "order":["header","style","fermentables","misc","hops","yeast","mash","sparge","boil","ferment","coldcrash","condition"],
     "parts":{
@@ -225,8 +219,7 @@
       "boil":        ["first","time","unit"],
       "ferment":     ["temp","then","time","unit"],
       "coldcrash":   ["first","temp","then","time","unit"],
-      "condition":   ["first","time","unit"],
-	  "sg":			 ["first","og","second","fg"]
+      "condition":   ["first","time","unit"]
     },
     "style":{
       "html":{
@@ -238,11 +231,10 @@
 	"yeast":       {"pre":"<li>","post":"</li>", "each":" ","start":"Gjær:<ul>",       "stop":"</ul>"},
 	"mash":        {"pre":"<li>","post":"</li>", "each":" ","start":"Mesk:<ul>",        "stop":"</ul>"},
 	"sparge":      {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"boil":        {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":"<br />"},
+	"boil":        {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":"<br>"},
 	"ferment":     {"pre":"<li>","post":"</li>", "each":" ","start":"Fermentering:<ul>","stop":"</ul>"},
 	"coldcrash":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"condition":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""},
-	"sg":		   {"pre":"",	 "post":"<br />","each":" ","start":"Graviditet:",	    "stop":""},
+	"condition":   {"pre":"",    "post":"<br />","each":" ","start":"",                 "stop":""}
 
       },
       "markdown":{
