@@ -27,8 +27,8 @@
  </div>
 </div>
 <div class="share">
-  <span class="share_id"><a id='share' href="?id={$id}">Del</a></span>
-  <span class="share_new"><a id='new' href="?id">Ny</a></span>
+  <span class="share_new"><a id='new' href="?id">Ny oppscript</a></span>
+  <span class="share_id"><a id='share' href="?id={$id}">Del oppscript</a></span>
 </div>
 <div class="about">
   <a href="https://github.com/ruskilli/recipe">Source at GitHub</a>

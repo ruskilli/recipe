@@ -44,6 +44,10 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+span {
+  display: inline-block;
+  padding: 1em;
+}
 .background {
   background-image: url("/img/food_bg.png");
   padding: 0.8em;
@@ -88,21 +92,22 @@ img {
 }
 
 .share {
-  padding-top: 0.5em;
+  padding-top: 1.4em;
+  padding-left: 1.8em;
 }
 
 .share_id,.share_new {
   background: #d7e2f2;
-  padding: 0.3em;
-  border-radius: 7px;
+  padding: 0.4em;
+  border-radius: 10px;
   border-style: solid;
   border-width: 2px;
-  border-color: #adc5e7;
+  border-color: #6ba0e6;
 }
 
 .about {
-  padding-top: 1em;
-  padding-left: 1em;
+  padding-top: 1.5em;
+  padding-left: 2.4em;
   font-size: .75em;
   height: 1em;
   width: 100%;
